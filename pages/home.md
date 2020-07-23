@@ -8,6 +8,5 @@ eleventyNavigation:
   order: 0
 ---
 # Welcome Home Sentient Beings
-
-If you are an Earthling, then Greetings To You.
-If not, then get out now, you crazy ALIEN !
+home file is eleventy-netlify-boilerplate/pages/home.md
+ 
