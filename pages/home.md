@@ -7,7 +7,7 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-# Welcome
+# Welcome Home Sentient Beings
 
 If you are an Earthling, then Greetings To You.
 If not, then get out now, you crazy ALIEN !
