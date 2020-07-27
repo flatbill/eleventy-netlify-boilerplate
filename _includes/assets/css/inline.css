@@ -24,7 +24,7 @@ body {
 
 main {
 	max-width: 37.5em;
-	background-color: yellow;
+	background-color: brown;
 }
 
 p,
@@ -122,11 +122,13 @@ article {
 	padding-bottom: 1em;
 	border-bottom: 1px solid #eee;
 	border-bottom: 1px solid var(--secondary);
+	background-color: purple;
 }
 
 main > section > article > * {
 	margin-top: 0;
 	margin-bottom: .5em;
+	background-color: orange;
 }
 
 /* Post Tags */
