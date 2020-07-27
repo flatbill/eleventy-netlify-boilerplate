@@ -9,4 +9,4 @@ eleventyNavigation:
 ---
 # Welcome Home Sentient Beings
 home file is eleventy-netlify-boilerplate/pages/home.md
- 
+this web page is a mix of  -----------   .ntk (nunjucks)   .md (markdown text files)
