@@ -2,6 +2,8 @@
 	--primary: blue;
 	--secondary: white;
 	--background: thistle;
+	--background2: yellow;
+	--background3: darkGreen;
 }
 
 *, *:before, *:after {
@@ -24,7 +26,6 @@ body {
 
 main {
 	max-width: 37.5em;
-	background-color: brown;
 }
 
 p,
@@ -51,12 +52,11 @@ header,
 main,
 footer {
 	padding: 1em;
-	background-color: orange;
+	background-color: var(--background2);
 }
 
 main {
 	padding-bottom: 2em;
-	background-color: CadetBlue;
 }
 
 main :first-child,
@@ -124,7 +124,7 @@ article {
 	padding-bottom: 1em;
 	border-bottom: 1px solid #eee;
 	border-bottom: 1px solid var(--secondary);
-	background-color: Aquamarine;
+	background-color: var(--background3);
 }
 
 main > section > article > * {
