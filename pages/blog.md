@@ -7,3 +7,4 @@ eleventyNavigation:
   key: Blog
   order: 2
 ---
+hello from file: eleventy-netlify-boilerplate/pages/blog.md
