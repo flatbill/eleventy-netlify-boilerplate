@@ -10,7 +10,7 @@ eleventyNavigation:
 ---
 hello from contact.md
 file: eleventy-netlify-boilerplate/pages/contact.md
-The layout for the  form on this page is layouts/contact.njk ?
+The layout for the  form on this page is file: eleventy-netlify-boilerplate/_includes/layouts/contact.njk
 The contact form on this page is layouts/contact.njk ?
 The contact form on this page uses
 [Netlify Forms](https://www.netlify.com/docs/form-handling/) to process
