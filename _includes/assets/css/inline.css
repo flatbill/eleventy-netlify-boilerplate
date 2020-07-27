@@ -49,14 +49,14 @@ img {
 }
 
 header,
-main,
 footer {
 	padding: 1em;
-	background-color: var(--background2);
+	background-color: var(--background3);
 }
 
 main {
 	padding-bottom: 2em;
+	background-color: var(--background2);
 }
 
 main :first-child,
@@ -115,7 +115,7 @@ header nav li a[href]:not(:hover) {
 }
 
 header nav li a[data-current="current item"] {
-	background-color: white;
+	background-color: var(--secondary);
 }
 
 /* Posts List */
