@@ -51,10 +51,12 @@ header,
 main,
 footer {
 	padding: 1em;
+	background-color: orange;
 }
 
 main {
 	padding-bottom: 2em;
+	background-color: CadetBlue;
 }
 
 main :first-child,
@@ -128,7 +130,7 @@ article {
 main > section > article > * {
 	margin-top: 0;
 	margin-bottom: .5em;
-	background-color: orange;
+	
 }
 
 /* Post Tags */
