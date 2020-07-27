@@ -1,9 +1,9 @@
 :root {
 	--primary: blue;
-	--secondary: white;
-	--background: thistle;
-	--background2: yellow;
-	--background3: darkGreen;
+	--secondary: LightGoldenRodYellow;
+	--background: GoldenRod;
+	--background2: DarkKhaki;
+	--background3: Khaki;
 }
 
 *, *:before, *:after {
