@@ -26,3 +26,5 @@ https://www.11ty.io/docs/languages/markdown/#add-your-own-plugins
 only somebody that loves markdown would go thru all this pain.
 
 
+> elventy has a cute possum balloon thing.  Here's my take on it:
+<img src="../static/img/possumBalloonRoadside.jpg" alt="PossumBalloon" width="250" height="300">
