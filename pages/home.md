@@ -9,8 +9,7 @@ eleventyNavigation:
 ---
 # Welcome Home Sentient Beings
 home file is eleventy-netlify-boilerplate/pages/home.md
-this web page is a mix of  -----------   .ntk (nunjucks)   .md (markdown text files)
-
+this web page is a mix of .ntk (nunjucks)  and  .md (markdown text files)
 
 Why use this approach of Netlify + 11ty ?
 I don't know why.  I suppose it's OK if you already love 11ty.
@@ -31,8 +30,19 @@ geez.
 Wordpress approach might be better, if ya wanna blog... 
 there are zillions of starting points,
 that make prettier pages.
-Maybe you can host a wordpress site on netlifysomehow?
+Maybe you can host a wordpress site on netlify somehow?
 
 
 maybe a pure html css template as starting point instead of all this 11ty shit?
 Or, just do Angular, and leave the alternatives to other thinkers.
+
+If ya don't wanna capture forms data (like forget the contact page)
+and ya don't wanna bother with a blog  (like kill the blog and posts stuff)
+and instead, a wanna create a portfolio-ish 'static' site...
+then maybe start with this boiler plate page,  change the nav stuff,
+and create a .njk file (and maybe a .md file)  for each nav option.
+The .md file has a line for which layout (njk file) it should use.
+So, for a portfolio, maybe stick nice html into each .njk file.
+
+I guess I'll try this with an addition Nav option, called SwordFish.
+Build a web page all about Sword Fishing, and show it when he Navs there.
