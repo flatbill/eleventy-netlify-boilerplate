@@ -11,12 +11,16 @@ eleventyNavigation:
 home file is eleventy-netlify-boilerplate/pages/home.md
 this web page is a mix of .ntk (nunjucks)  and  .md (markdown text files)
 
-> paragraph starts here.  Look mom, i'm using markdown in swordFish.md
+> paragraph starts here.  
+Look mom, i'm writing text as markdown in 'swordFish.md'
 
 >Why use this approach of Netlify + 11ty ?
-I don't know why.  I suppose it's OK if you already love 11ty.
+I don't know why.  I suppose it's OK if you already love 11ty,
+along with the static page and snippet-driven-design.
+OK, some of the almost cool kids call this Component Driven Design.  Sheesh.
 If you are using Netlify, then maybe this approach gets you started.
-But there is a learning curve to 11ty.  It seems to be a tool for tech people, 
+But there is a learning curve to 11ty.  
+It seems to be a tool for tech people, 
 who want to hand-craft their website.
 I built an ugly site here.  Maybe somebody 11ty-oriented could pretty it up.
 
@@ -58,3 +62,8 @@ It should not
 have all the words in it. 
 put those words in here, in the .md file.
 
+> Hey, get with the program:
+.ntk files are html templates (no content)
+.md files are content
+ok, .md examples have html shorthand too.
+yow. I'm confused.
