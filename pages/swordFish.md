@@ -34,7 +34,7 @@ only somebody that loves markdown would go thru all this pain.
 So, I stick two underlines on the end of each sentence. __ 
 The two lines act as a __ 
 line break __ 
-kinda the same as the br tag. __ 
+kinda the same as the br tag.  I hope. __ 
 wow, markdown is so much fun. __ 
 Notice the reams of stack overflow questions on it. __ 
 I am not feeling the love. __ 
