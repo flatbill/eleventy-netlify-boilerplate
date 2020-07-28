@@ -20,11 +20,19 @@ who want to hand-craft their website.
 I built an ugly site here.  Maybe somebody 11ty-oriented could pretty it up.
 
 
-Also, this 11ty template is big on the blog thing.  But I cant find docs on how to create 
-blog info.
+Also, this 11ty template is big on the blog thing. 
+But I cant find docs on how to create blog info. (create 'posts').
+It seems like you create more .md files in github, and re-publish.
 
-Wordpress approach might be better, there are zillions of html-oriented starting points.
-But I don't know if you can host a wordpress site on netlify without jumping hoops.
+I mean, go to github, folder bla bla bla, create sixthPost.md file 
+to do a new post?  
+geez.
 
-maybe a pure html css template could be a starting point instead of all this 11ty shit.
+Wordpress approach might be better, if ya wanna blog... 
+there are zillions of starting points,
+that make prettier pages.
+Maybe you can host a wordpress site on netlifysomehow?
+
+
+maybe a pure html css template as starting point instead of all this 11ty shit?
 Or, just do Angular, and leave the alternatives to other thinkers.
