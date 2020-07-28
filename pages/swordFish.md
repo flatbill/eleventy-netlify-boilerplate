@@ -18,7 +18,7 @@ hello from swordFish file: eleventy-netlify-boilerplate/pages/swordfish.md
 
 >I tried inserting the image with markdown instead of imbedded html,
 but the image cant be resized.  this duznt work right:
- ![GirlieJacket](/static/img/img_girl.jpg){width=50% height=50% } 
+ ``    ![GirlieJacket](/static/img/img_girl.jpg){width=50% height=50% } ``
 > what a hassle.  
 
 > some 11ty lover recommend adding a markdown plugin: https://www.npmjs.com/package/markdown-it-attrs
