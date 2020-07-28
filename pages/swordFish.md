@@ -29,3 +29,14 @@ only somebody that loves markdown would go thru all this pain.
 
 > elventy has a cute possum balloon thing.  Here's my take on it:
 <img src="../static/img/possumBalloonRoadside.jpg" alt="PossumBalloon" width="250" height="300">
+
+> I want to write a series of lines, in the same paragraph. __ 
+So, I stick two underlines on the end of each sentence. __ 
+The two lines act as a __ 
+line break __ 
+kinda the same as the br tag. __ 
+wow, markdown is so much fun. __ 
+Notice the reams of stack overflow questions on it. __ 
+I am not feeling the love. __ 
+
+
