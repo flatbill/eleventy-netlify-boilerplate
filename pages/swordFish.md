@@ -39,4 +39,9 @@ wow, markdown is so much fun. __
 Notice the reams of stack overflow questions on it. __ 
 I am not feeling the love. __ 
 
+> chris coyier uses front matter: __
+https://jekyllrb.com/docs/front-matter/ __
+See the top of this file, __
+between the three dash lines.  __
+This is probably the 'front matter' format.
 
