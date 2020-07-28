@@ -46,3 +46,13 @@ So, for a portfolio, maybe stick nice html into each .njk file.
 
 I guess I'll try this with an addition Nav option, called SwordFish.
 Build a web page all about Sword Fishing, and show it when he Navs there.
+
+> paragraph starts here.  Look mom, i'm using markdown in swordFish.md
+don't forget, all the css is in file:
+eleventy-netlify-boilerplate/_includes/assets/css/inline.css
+
+and swordFish.ntk should be a layout skeleton.  
+It should not
+have all the words in it. 
+put those words in here, in the .md file.
+
