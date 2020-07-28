@@ -18,6 +18,6 @@ hello from swordFish file: eleventy-netlify-boilerplate/pages/swordfish.md
 
 >now lets try inserting the image with markdown instead of imbedded html:
 
-![GitHub Logo](/static/img/img_girl.jpg){ width=50% }
+![GirlieJacket](/static/img/img_girl.jpg){ width=50% height=50% }
 
 #### Format: ![Alt Text](url)
