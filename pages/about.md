@@ -6,7 +6,7 @@ eleventyNavigation:
   key: About
   order: 1
 ---
-about file is eleventy-netlify-boilerplate/pages/about.md
+hello from about file: eleventy-netlify-boilerplate/pages/about.md
 
 ## Our services
 bla
