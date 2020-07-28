@@ -8,5 +8,5 @@ eleventyNavigation:
   order: 5
 ---
 hello from swordFish file: eleventy-netlify-boilerplate/pages/swordfish.md
-![GitHub Logo](/static/images/img_girl.jpg)
+![GitHub Logo](/static/img/img_girl.jpg)
 Format: ![Alt Text](url)
