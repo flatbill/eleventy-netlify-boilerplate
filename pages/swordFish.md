@@ -1,7 +1,7 @@
 ---
 title: swordFish
 date: 2017-01-01T00:00:00.000Z
-permalink: /about/index.html
+permalink: /swordFish/index.html
 eleventyNavigation:
   key: swordFish
   order: 1
