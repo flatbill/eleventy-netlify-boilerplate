@@ -6,5 +6,5 @@ eleventyNavigation:
   key: swordFish
   order: 1
 ---
-hello from about file: eleventy-netlify-boilerplate/pages/swordfish.md
+hello from swordFish file: eleventy-netlify-boilerplate/pages/swordfish.md
 
