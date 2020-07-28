@@ -8,5 +8,11 @@ eleventyNavigation:
   order: 5
 ---
 hello from swordFish file: eleventy-netlify-boilerplate/pages/swordfish.md
-![GitHub Logo](/static/img/img_girl.jpg)
+
+> ya gotta stuff pics in folder: static/img/  
+>eleventy.js has some passthrough logic to upload those images to netlify. 
+ 
+> was this: '<img src="../static/img/img_girl.jpg" alt="Girl in a jacket" width="250" height="300">'
+
+![GitHub Logo](/static/img/img_girl.jpg  width="250" height="300")
 Format: ![Alt Text](url)
