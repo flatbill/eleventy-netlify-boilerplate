@@ -17,7 +17,7 @@ Look mom, i'm writing text as markdown in eleventy-netlify-boilerplate/pages/hom
 >Why use this approach of Netlify + 11ty ?
 I don't know why.  I suppose it's OK if you already love 11ty,
 along with the static page and snippet-driven-design.
-OK, some of the almost cool kids call this Component Driven Design.  Sheesh.
+OK, some call this Component Driven Design.  Sheesh.
 If you are using Netlify, then maybe this approach gets you started.
 But there is a learning curve to 11ty.  
 It seems to be a tool for tech people, 
@@ -69,11 +69,22 @@ here is the next sentence.
 here is the next sentence.  
 here is the next sentence.  
 here is the next sentence.  
-stupid underscore duznt seem to do anything.
+stupid underscores is not a good breaker,
+they shows up on the web page.
+here is a sentence with just hitting enter at the end.
+here is another sentence.
+here is another.
+
 
 > all this work trying to understand characters I should put into md files.   
 if the whole point is to seperate content from layout,  
 then my md files should only have raw text and I should ignore all the neato-keen markdown shorthand that feeds html.
 I mean, put the Front Matter stuff at the top of the md file and the rest of the md file should be just words.  
 Now, how to get those words grouped, so that a njk file can merge md words into a layout?
+
+> what about .css ?
+is it bad manners to tie a css class to a portion of md words?
+at least, if i did that, I would do no formatting in the md,
+instead, i would rely on the class to do the layout & formatting.
+like ruly on bulma.
 
