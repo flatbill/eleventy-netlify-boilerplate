@@ -86,5 +86,7 @@ Now, how to get those words grouped, so that a njk file can merge md words into 
 is it bad manners to tie a css class to a portion of md words?
 at least, if i did that, I would do no formatting in the md,
 instead, i would rely on the class to do the layout & formatting.
-like ruly on bulma.
+like classes in bulma.
+
+>{.className}{#id}This is the blockquote
 
