@@ -47,3 +47,7 @@ This is probably the 'front matter' format.
 > I expanded 11ty to get css class to work.
 package.json I added markdown-it-attrs to refrence the module
  eleventy.js I added markdown-it-attrs to require the module
+ 
+>my hero is bulma {.hero.is-primary}
+
+> the end!
