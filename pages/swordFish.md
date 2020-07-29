@@ -30,20 +30,20 @@ only somebody that loves markdown would go thru all this pain.
 > elventy has a cute possum balloon thing.  Here's my take on it:
 <img src="../static/img/possumBalloonRoadside.jpg" alt="PossumBalloon" width="250" height="300">
 
-> I want to write a series of lines, in the same paragraph. __ 
-So, I stick two underlines on the end of each sentence. __ 
-The two lines act as a __ 
-line break __ 
-kinda the same as the br tag.  I hope. __ 
-wow, markdown is so much fun. __ 
-Notice the reams of stack overflow questions on it. __ 
-I am not feeling the love. __ 
+> wow, markdown is so much fun.  
+Notice the reams of stack overflow questions on it.  
+I am not feeling the love. 
 
-> chris coyier uses front matter: __
-https://jekyllrb.com/docs/front-matter/ __
-See the top of this file, __
-between the three dash lines.  __
+> chris coyier uses front matter: 
+https://jekyllrb.com/docs/front-matter/ 
+See the top of this file, 
+between the three dash lines.  
 This is probably the 'front matter' format.
 
->Here is text with a css class of selzClass1
-my text line in markdown with class {.selzClass1}
+>Below is text with a css class of selzClass1
+
+>my text line in markdown with class {.selzClass1}
+
+> I expanded 11ty to get css class to work.
+package.json I added markdown-it-attrs to refrence the module
+ eleventy.js I added markdown-it-attrs to require the module
