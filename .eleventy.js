@@ -88,6 +88,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.setLibrary("md", markdownIt(options)
     .use(markdownItAnchor, opts)
+    .use(markdownItAttrs)
   );
 
   return {
