@@ -45,4 +45,5 @@ See the top of this file, __
 between the three dash lines.  __
 This is probably the 'front matter' format.
 
-# header {.selzClass1}
+>Here is text with a css class of selzClass1
+my text line in markdown with class {.selzClass1}
