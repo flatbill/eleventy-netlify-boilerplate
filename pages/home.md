@@ -63,3 +63,17 @@ eleventy-netlify-boilerplate/_includes/assets/css/inline.css
 .md files are content
 ok, .md examples have html shorthand too.
 yow.  
+
+> Try to break via two spaces at the end of this sentence.  
+here is the next sentence.  
+here is the next sentence.  
+here is the next sentence.  
+here is the next sentence.  
+stupid underscore duznt seem to do anything.
+
+> all this work trying to understand characters I should put into md files.   
+if the whole point is to seperate content from layout,  
+then my md files should only have raw text and I should ignore all the neato-keen markdown shorthand that feeds html.
+I mean, put the Front Matter stuff at the top of the md file and the rest of the md file should be just words.  
+Now, how to get those words grouped, so that a njk file can merge md words into a layout?
+
