@@ -88,5 +88,5 @@ at least, if i did that, I would do no formatting in the md,
 instead, i would rely on the class to do the layout & formatting.
 like classes in bulma.
 
->{.selzClass1 }{#id}hello from class selzClass1
+{.selzClass1 }{#id}hello from class selzClass1
 
