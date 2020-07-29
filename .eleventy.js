@@ -76,6 +76,7 @@ module.exports = function(eleventyConfig) {
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
   let markdownItAnchor = require("markdown-it-anchor");
+  let markdownItAttrs = require("markdown-it-attrs"); //selzer july2020
   let options = {
     html: true,
     breaks: true,
