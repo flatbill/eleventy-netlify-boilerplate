@@ -4,6 +4,7 @@ title: bass
 date: 2017-01-01T00:00:00.000Z
 permalink: /bass/index.html
 bassFood: oatmeal
+bassMsg1: ranKan
 eleventyNavigation:
   key: bass
   order: 7
