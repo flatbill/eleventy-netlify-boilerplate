@@ -12,13 +12,13 @@ section: bass
               <i class="is-large fas fa-code"></i>
               <h1 class="title">Code <em>All</em> The Things</h1>
               <h3 class="subtitle">
-              Collection of code goodies for next-level dev
+                {{bassSubtitle}}
               </h3>
               <a href="https://github.com/BulmaTemplates/bulma-templates" target="_blank" class="button is-primary is-large">
                 <span class="icon">
                   <i class="fab fa-github"></i>
                 </span>
-                <span>Github</span>
+                <span>{{bassSubtitleLink}}</span>
               </a>
             </div>
           </div>
@@ -62,7 +62,7 @@ section: bass
           </div>
           <div class="column is-9">
             <div class="content is-medium">
-          <h3 class="title is-3">Snippets ¯\_(ツ)_/¯</h3>
+          <h3 class="title is-3"> {{bassSnippets}} </h3>
               <div class="box">
                 <h4 id="const" class="title is-3">const</h4>
                 <article class="message is-primary">
@@ -70,7 +70,7 @@ section: bass
                   <i class="fab fa-js"></i>
                   </span>
                   <div class="message-body">
-                    Block-scoped. Cannot be re-assigned. Not immutable.
+                    {{bassMsgBody}}
                   </div>
                 </article>
               <pre><code class="language-javascript">const test = 'test';</code></pre>
@@ -82,20 +82,20 @@ section: bass
                   <i class="fas fa-info-circle"></i>
                 </span>
                 <div class="message-body">
-                  Block-scoped. Can be re-assigned.
+                  {{bassMsgBody2}}
                 </div>
               </article>
             <pre><code class="language-javascript">let i = 0;</code></pre>
           </div>
-          <h3 class="title is-3">More to Come...</h3>
+          <h3 class="title is-3">{{bassMsgTItle3}}</h3>
           <div class="box">
-            <h4 id="lorem" class="title is-4">More to come...</h4>
+            <h4 id="lorem" class="title is-4">{{bassTitle4}}</h4>
             <article class="message is-primary">
               <span class="icon has-text-primary">
                 <i class="fas fa-info-circle"></i>
               </span>
               <div class="message-body">
-                Lorem ipsum dolor sit amet, mea ne viderer veritus menandri, id scaevola gloriatur instructior sit.
+               {{bassMsgBody4}}
               </div>
             </article>
           <pre><code class="language-javascript">let i = 0;</code></pre>
@@ -120,7 +120,7 @@ section: bass
             <div class="content">
               <h1 class="title is-size-4">Columns</h1>
               <p class="is-size-5 subtitle">
-                The power of <strong>Flexbox</strong> in a simple interface
+                {{bassCol1Info}}
               </p>
             </div>
           </div>
@@ -137,7 +137,7 @@ section: bass
             <div class="content">
               <h1 class="title is-size-4">Form</h1>
               <p class="is-size-5 subtitle">
-                The indispensable <strong>form controls</strong>, designed for maximum clarity
+                {{bassCol1Info}}
               </p>
             </div>
           </div>
@@ -154,7 +154,7 @@ section: bass
             <div class="content">
               <h1 class="title is-size-4">Components</h1>
               <p class="is-size-5 subtitle">
-                Advanced multi-part components with lots of possibilities
+                {{bassCol1Info}}
               </p>
             </div>
           </div>
@@ -171,7 +171,7 @@ section: bass
             <div class="content">
               <h1 class="title is-size-4">Modifiers</h1>
               <p class="is-size-5 subtitle">
-                An <strong>easy-to-read</strong> naming system designed for humans
+                {{bassCol1Info}}
               </p>
             </div>
           </div>
@@ -188,7 +188,7 @@ section: bass
             <div class="content">
               <h1 class="title is-size-4">Layout</h1>
               <p class="is-size-5 subtitle">
-                Design the <strong>structure</strong> of your webpage with these CSS classes
+                {{bassCol1Info}}
               </p>
             </div>
           </div>
@@ -205,7 +205,7 @@ section: bass
             <div class="content">
               <h1 class="title is-size-4">Elements</h1>
               <p class="is-size-5 subtitle">
-                Essential interface elements that only require a <strong>single CSS class</strong>
+                {{bassCol1Info}}
               </p>
             </div>
           </div>
@@ -224,7 +224,7 @@ section: bass
   </div>
   <div class="control">
     <div class="tags has-addons">
-      <span class="tag is-dark">based on a pen</span>
+      <span class="tag is-dark">{{bassCol1Info}}</span>
       <span class="tag has-addons is-warning"><a href="https://codepen.io/melanieseltzer/pen/odOXWM"><i class="fab fa-lg fa-codepen"></i></a></span>
     </div>
   </div>
