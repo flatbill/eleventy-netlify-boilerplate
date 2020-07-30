@@ -8,7 +8,7 @@ eleventyNavigation:
 ---
 hello from about file: eleventy-netlify-boilerplate/pages/about.md
 
-    <!-- START NAV -->
+    
     <nav class="navbar">
       <div class="container">
         <div class="navbar-brand">
