@@ -20,17 +20,22 @@
       <span aria-hidden="true"></span>
     </a>
   </div>
-
+  
+<!-- Using a <label /> here -->
+  <label class="nav-toggle" for="nav-toggle-state">
+    <span></span>           <!-- ^^^^^^^^^^^^^^^^ -->
+    <span></span>
+    <span></span>
+  </label>
+  <!-- This checkbox is hidden -->
+  <input type="checkbox" id="nav-toggle-state" />
+  
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
     {%- for entry in navPages %}
       <a class="navbar-item" href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
     {%- endfor %}
-  
-    
-
-      
-    </div>
+   </div>
 
     <div class="navbar-end">
       <div class="navbar-item">
