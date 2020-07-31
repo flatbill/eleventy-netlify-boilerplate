@@ -5,7 +5,7 @@
   <ul>
   {%- for entry in navPages %}
     <li>
-      <a class="control-me" href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
+      <a  href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
     </li>
   {%- endfor %}
   </ul>
@@ -59,7 +59,7 @@
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
      {%- for entry in navPages %}
-      <a class="navbar-item is-tab" href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
+      <a class="navbar-item is-tab control-me" href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
     {%- endfor %}
       <a class="navbar-item">
         Homerrrr
