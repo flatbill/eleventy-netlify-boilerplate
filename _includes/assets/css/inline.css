@@ -25,7 +25,6 @@ body {
 	background-color: var(--background);
 }
 
-.selzClass1 { font-size: 25px; }
 
 p,
 pre,
@@ -47,10 +46,10 @@ img {
 	height: auto;
 }
 
-header {
-	padding: 1em;
-	background-color: var(--background2);
-}
+//header {
+//	padding: 1em;
+//	background-color: var(--background2);
+//}
 
 main {
 	max-width: 37.5em;
