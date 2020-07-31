@@ -1,4 +1,9 @@
-
+.control-me {
+  /* Default state */
+}
+#toggle:checked ~ .control-me {
+  /* A toggled state! No JavaScript! */
+}
 
 /*! bulma.io v0.9.0 | MIT License | github.com/jgthms/bulma */
 @-webkit-keyframes spinAround {
