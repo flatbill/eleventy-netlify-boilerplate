@@ -35,7 +35,7 @@
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
     {%- for entry in navPages %}
-      <a class="navbar-item" href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
+      <a class="navbar-item is-tab" href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
     {%- endfor %}
    </div>
 
