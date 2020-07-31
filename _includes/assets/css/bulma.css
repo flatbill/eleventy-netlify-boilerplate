@@ -1,8 +1,8 @@
-/*! selzer Jul 2020 toggle nav */
+/*! selzer Jul 2020 toggle nav to fix hamburger action on/off */
 #nav-toggle-state {
   display: none;
 }
-#nav-toggle-state:checked ~ .nav-menu {
+#nav-toggle-state:checked ~ .navbar-menu {
   display: block;
 }
 
