@@ -1,10 +1,10 @@
 .control-me {
   /* Default state */
-  display: none;
+  display: block;
 }
 #toggle:checked ~ .control-me {
   /* A toggled state! No JavaScript! */
-  display: block;
+  display: none;
 }
 
 /*! bulma.io v0.9.0 | MIT License | github.com/jgthms/bulma */
