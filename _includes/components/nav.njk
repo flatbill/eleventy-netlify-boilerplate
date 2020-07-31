@@ -4,7 +4,6 @@
   {%- for entry in navPages %}
     <li>
       <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
-      <p>billSelzer</p>
     </li>
   {%- endfor %}
   </ul>
@@ -38,15 +37,7 @@
    </div>
 
     <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
-          </a>
-          <a class="button is-light">
-            Log in
-          </a>
-        </div>
+      <div class="navbar-item">        
       </div>
     </div>
   </div>
