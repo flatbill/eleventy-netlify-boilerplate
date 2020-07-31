@@ -14,7 +14,7 @@
   <div id="navbarBasicExample" class="navbar-menu is-active">
     <div class="navbar-start">
      {%- for entry in navPages %}
-     {% if entry.url == page.url %} foo="bar2"{% endif %}
+     {% if entry.url == page.url %}     {% set foo = "is-active" %}  {% else %}  {% set foo = "blabber" %}    {% endif %}
       <a class="navbar-item is-tab {{ foo }} " href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
     {%- endfor %}
   </div>
