@@ -23,6 +23,11 @@
 
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
+    {%- for entry in navPages %}
+      <a class="navbar-item" href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
+      <p>billSelzer2</p>
+    {%- endfor %}
+  
       <a class="navbar-item">
         Home
       </a>
