@@ -1,10 +1,4 @@
-/*! selzer Jul 2020 toggle nav to fix hamburger action on/off */
-#nav-toggle-state {
-  display: none;
-}
-#nav-toggle-state:checked ~ .navbar-menu {
-  display: block;
-}
+
 
 /*! bulma.io v0.9.0 | MIT License | github.com/jgthms/bulma */
 @-webkit-keyframes spinAround {
