@@ -1,8 +1,10 @@
 .control-me {
   /* Default state */
+  color: green;
 }
 #toggle:checked ~ .control-me {
   /* A toggled state! No JavaScript! */
+  color: orange;
 }
 
 /*! bulma.io v0.9.0 | MIT License | github.com/jgthms/bulma */
