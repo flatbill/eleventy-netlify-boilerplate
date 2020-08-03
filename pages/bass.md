@@ -21,4 +21,4 @@ eleventyNavigation:
 ---
 hello from  file: eleventy-netlify-boilerplate/pages/bass.md
 bassFood is a var. its value is 'oatmeal'.  here is the var value:
-{{bassFood}}  {.has-text-primary} {.pl-2}
+{{bassFood}}  {.has-text-primary .pl-2}
