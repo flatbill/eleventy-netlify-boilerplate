@@ -1,4 +1,13 @@
-
+/*! Selzer July2020 */
+:root {
+	--primary: blue;
+	--secondary: LightGoldenRodYellow;
+	--background: GoldenRod;
+	--background2: DarkKhaki;
+	--background3: Khaki;
+	--background4: Cornsilk;
+  /*! End Selzer July2020 */
+  
 /*! bulma.io v0.9.0 | MIT License | github.com/jgthms/bulma */
 @-webkit-keyframes spinAround {
   from {
