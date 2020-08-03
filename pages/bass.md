@@ -3,7 +3,8 @@ layout: layouts/bass.njk
 deadtitle: bass
 date: 2017-01-01T00:00:00.000Z
 permalink: /bass/index.html
-bassFood: oatmeal is the fish's dietary staple.
+bassFood: 
+  oatmeal is the fish's dietary staple.
   steel oats are prefered.
   Sometimes maple and cinnamon.
 bassSubtitle: bassSubtitle fzf
@@ -18,6 +19,6 @@ eleventyNavigation:
   key: bass
   order: 7
 ---
->hello from  file: eleventy-netlify-boilerplate/pages/bass.md
+hello from  file: eleventy-netlify-boilerplate/pages/bass.md
 bassFood is a var. its value is 'oatmeal'.  here is the var value:
-{{bassFood}}  {.has-text-primary}
+{{bassFood}}  {.has-text-primary} {.pl-2}
