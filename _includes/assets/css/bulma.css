@@ -1,11 +1,11 @@
 /*! Selzer July2020 */
 :root {
-	--primary: blue;
-	--secondary: LightGoldenRodYellow;
-	--background: GoldenRod;
-	--background2: DarkKhaki;
-	--background3: Khaki;
-	--background4: Cornsilk;
+	--color1: blue;
+	--color2: LightGoldenRodYellow;
+	--color3: GoldenRod;
+	--color4: DarkKhaki;
+	--color5: Khaki;
+	--color6: Cornsilk;
   /*! End Selzer July2020 */
   
 /*! bulma.io v0.9.0 | MIT License | github.com/jgthms/bulma */
