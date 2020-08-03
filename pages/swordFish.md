@@ -3,6 +3,7 @@ layout: layouts/swordFish.njk
 title: swordFish
 date: 2017-01-01T00:00:00.000Z
 permalink: /swordFish/index.html
+footerMsg1: hello from var footerMsg1 in swordFish.md
 eleventyNavigation:
   key: swordFish
   order: 5
