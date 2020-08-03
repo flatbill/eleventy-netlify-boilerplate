@@ -15,6 +15,7 @@ bassMsgTItle3: bassMsgTItle3 fzf
 bassTitle4: bassTitle4 fzf
 bassMsgBody4: bassMsgBody4 fzf
 bassCol1Info: bassCol1Info fzf
+footerMsg1: hello Mr. Footer I am footerMsg1 from bass.md
 eleventyNavigation:
   key: bass
   order: 7
