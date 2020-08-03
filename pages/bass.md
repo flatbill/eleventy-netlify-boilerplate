@@ -3,7 +3,9 @@ layout: layouts/bass.njk
 title: bass
 date: 2017-01-01T00:00:00.000Z
 permalink: /bass/index.html
-bassFood: oatmeal
+bassFood: oatmeal is the fish's dietary staple.
+  steel oats are prefered.
+  Sometimes maple and cinnamon.
 bassSubtitle: bassSubtitle fzf
 bassSubtitleLink: bassSubtitleLink fzf
 bassSnippets: bassSnippets fzf
