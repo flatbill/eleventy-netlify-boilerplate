@@ -1,6 +1,6 @@
 ---
 layout: layouts/bass.njk
-title: bass
+deadtitle: bass
 date: 2017-01-01T00:00:00.000Z
 permalink: /bass/index.html
 bassFood: oatmeal is the fish's dietary staple.
