@@ -4,12 +4,13 @@
 			<h3>
 				<a href="{{ post.url | url }}">
 					{% if post.data.title %}
-						{{ post.data.title }}
+						{{ post.data.title }} {.is-3}
 					{% else %}
 						Untitled
 					{% endif %}
 				</a>
 			</h3>
+			
 			{% if post.data.summary %}
 				<p>
 					{{ post.data.summary }}
