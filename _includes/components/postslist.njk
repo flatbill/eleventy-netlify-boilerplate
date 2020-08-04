@@ -5,17 +5,17 @@
 		<article{% if post.url == url %} data-current="current item"{% endif %}>
 			<div class="has-background-info-light">
 				<a class="button has-background-primary-light is-fullwidth" href="{{ post.url | url }}">
-					{% if post.data.title %}
-						{{ post.data.title }} 
+					{% if post.data.summary %}
+						{{ post.data.summary }} 
 					{% else %}
 						Untitled
 					{% endif %}
 				</a>
 			</div>
 			
-			{% if post.data.summary %}
+			{% if post.data.title %}
 				<p>
-					{{ post.data.summary }}
+					{{ post.data.title }}
 				</p>
 			{% endif %}
 			<p>
