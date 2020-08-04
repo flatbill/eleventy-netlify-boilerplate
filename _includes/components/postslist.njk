@@ -1,11 +1,12 @@
 <section>
 	{% for post in postslist | reverse %}
 	  <div class="content is-medium" >
+	    <div class=box>
 		<article{% if post.url == url %} data-current="current item"{% endif %}>
 			<h3 class=is-3>
 				<a href="{{ post.url | url }}">
 					{% if post.data.title %}
-						{{ post.data.title }} {.is-3}
+						{{ post.data.title }} 
 					{% else %}
 						Untitled
 					{% endif %}
@@ -33,6 +34,7 @@
 				</p>
 			{% endif %}
 		</article>
+	    </div>
 	  </div>
 	{% endfor %}
 </section>
