@@ -3,9 +3,17 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
   {% set navPages = collections.all | eleventyNavigation %}
   <div class="navbar-brand">
-    <a class="navbar-item" href="/">      
+    <a class="navbar-item" href="/">  
+    {% if '/posts' in page.url %} 
+      {% set xImgUrl = ""../../static/img/logo27.png" %}
       <img src="../static/img/logo27.png" width="112" height="28">
+    {% else %} 
+      {% set xImgUrl = ""../static/img/logo27.png" %}
       <img src="../../static/img/logo27.png" width="112" height="28">
+    {% endif %}
+      
+      {{xImgUrl}}
+      
     </a>
   </div>
 
