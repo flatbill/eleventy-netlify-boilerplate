@@ -1,7 +1,7 @@
 <section>
 	{% for post in postslist | reverse %}
 	  <div class="content is-medium" >
-	    <div class=box class="has-background-info-light">
+	    <div class="box has-background-info-light">
 		<article{% if post.url == url %} data-current="current item"{% endif %}>
 			<div class="bla">
 				<a class="button has-background-info is-fullwidth has-text-weight-semibold" href="{{ post.url | url }}">
