@@ -28,7 +28,7 @@
 					{% for tag in post.data.tags %}
 		  			  {%- if tag != "post" -%}
 		  			    {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-		  		  	    <a href="{{ tagUrl | url }}" rel="tag" class="button is-small is-rounded has-background-info-light has-textweight-semibold">{{ tag }}</a>
+		  		  	    <a href="{{ tagUrl | url }}" rel="tag" class="button is-small is-rounded has-background-link-light has-textweight-semibold">{{ tag }}</a>
 		  			  {%- endif -%}
 					{% endfor %}
 				</div>
