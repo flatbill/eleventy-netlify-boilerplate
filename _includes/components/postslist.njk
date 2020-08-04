@@ -38,7 +38,7 @@
 	  </div>
          <a class=" box has-background-info-light" href="{{ post.url | url }} " >
 	   <p class="button has-background-info is-fullwidth has-text-weight-semibold">{{ post.data.summary }} </p>
-
+<small>{{ post.date | readableDate }} by <a href="/authors/{{ post.data.author | slug }}/">{{ post.data.author }}</a></small>
 	   <p> a paragraph of the post should go here </p>
 	 </a>
 	  
