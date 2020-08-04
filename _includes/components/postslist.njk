@@ -36,7 +36,12 @@
 		</article>
 	    </div>
 	  </div>
-	  <a  href="{{ tagUrl | url }}" rel="tag" class="fooboo">{{ tag }}>
-	  </a>
+	 <a class=" has-background-info is-fullwidth has-text-weight-semibold" href="{{ post.url | url }}">
+					{% if post.data.summary %}
+						{{ post.data.summary }} 
+					{% else %}
+						Untitled
+					{% endif %}
+	</a>
 	{% endfor %}
 </section>
