@@ -18,7 +18,7 @@ section: post
     {% for tag in tags %}
       {%- if tag != "post" -%}
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <a class="button"  href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+        <a class="button has-background-info-light has-textweight-semibold"  href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
       {%- endif -%}
     {% endfor %}
     </p>
@@ -27,5 +27,5 @@ section: post
 </article>
 
 <nav>
-  <a  class="button" href="{{ '/blog/' | url }}" >← Blog Index</a>
+  <a  class="button has-background-link has-textweight-semibold" href="{{ '/blog/' | url }}" >← Blog Index</a>
 </nav>
