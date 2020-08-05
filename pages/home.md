@@ -13,6 +13,7 @@ this web page is a mix of .ntk (nunjucks)  and  .md (markdown text files)
 
 > paragraph starts here.  
 Look mom, i'm writing text as markdown in eleventy-netlify-boilerplate/pages/home.md
+See the BLOG section for notes on markdown.
 
 >Why use this approach of Netlify + 11ty ?
 I don't know why.  I suppose it's OK if you already love 11ty,
@@ -56,32 +57,15 @@ Build a web page all about Sword Fishing, and show it when he Navs there.
 >don't forget, all the css is in file:
 eleventy-netlify-boilerplate/_includes/assets/css/inline.css
 
+well, i commented out inline.css and replaced it with bulma.css
 
 
 > Hey, get with the program:
 .ntk files are html templates (no content)
 .md files are content
-ok, .md examples have html shorthand too.
-yow.  
+ok, .md examples have html shorthand too. 
 
-> Try to break via two spaces at the end of this sentence.  
-here is the next sentence.  
-here is the next sentence.  
-here is the next sentence.  
-here is the next sentence.  
-stupid underscores is not a good breaker,
-they shows up on the web page.
-here is a sentence with just hitting enter at the end.
-here is another sentence.
-here is another.
-
-
-> all this work trying to understand characters I should put into md files.   
-if the whole point is to seperate content from layout,  
-then my md files should only have raw text and I should ignore all the neato-keen markdown shorthand that feeds html.
-I mean, put the Front Matter stuff at the top of the md file and the rest of the md file should be just words.  
-Now, how to get those words grouped, so that a njk file can merge md words into a layout?
-
+ 
 > what about .css ?
 is it bad manners to tie a css class to a portion of md words?
 at least, if i did that, I would do no formatting in the md,
@@ -89,4 +73,13 @@ instead, i would rely on the class to do the layout & formatting.
 like classes in bulma.
 
 {:.selzClass1 } hello from class selzClass1
+I added a plug in so that I could put CSS classes in a .md file.  Maybe not a good technique.
+
+There is also a HACK to work with images in the includes/ images / static folder (or some crazy path like that).
+i am using a relative path when defining anchor and href img-src, for the bulma menu logo.
+but the relative path changes when the Url gets into sub-folders.
+so, the nav .njk snippet has a HACK to find the right folder--   ./  or ../    (geez.)
+Maybe solve this with a base tag instead, or a njk var set from the base url,
+then use the njk var in the anchor href img-src.
+
 
