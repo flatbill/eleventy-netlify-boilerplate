@@ -1,6 +1,6 @@
 ---
 title: The Joy and Sorrow of Markdown  
-date: 2017-02-03T00:00:00.000Z
+date: 2020-08-05T00:00:00.000Z
 author: Nobody Cares
 summary: I am taking over fourthpost .md   to write some handy tips about markdown.  Yes, this is opinioned.  Yes, I am grouchy today. A goal--  learn enough about markdown, to see if I could adopt an approach to web pages, where I use markdown files for the content (mostly text), and rely on the web page programming to do the layout and format.
 tags:
@@ -13,9 +13,10 @@ tags:
 This file is called fourthpost .md but maybe the name is unimportant?
 like, I could create another post called legCramp .md and stick it on github in the right folder,
 and it would be added to this blog?
+<br><br><br>
 
 OK, so what should I type in this markdown file?  My words and wisdom, of course, but should I be concerned about format?
-
+<br><br><br>
 
 # Front Matter is a 11ty / markdown convention.  it is in the top of the .md file.
 The Front Matter format....   stick three dashes on two lines, as a wrapper for these thingies:
@@ -26,6 +27,7 @@ author
 summary	
 tags
 dash dash dash
+<br><br><br>
 
 # weirdness when creating the summary
 in the top section of this .md file,  (Front Matter) I stuck in an extra colon.  Bad move.
@@ -77,6 +79,7 @@ https://gist.github.com/joallard/06f113b690d5553d90187a53bc38cb15
 I am hitting enter as I type, to put in line breaks.
 Like this.
 And this.
+<br><br><br>
 
 Ready for some blank lines?  here are three of them:
 
@@ -86,8 +89,6 @@ OK, those three blanks did not appear on the web page.  now try three 'blank lin
 >
 >
 >
-
-
 here is my attempt at three blank lines, by putting a slash on the line:
 /
 /
@@ -100,8 +101,7 @@ here is my attempt at theree blank lines, by putting space space slash space spa
   /  
   /  
   /  
-
-
+none of the techniques work for blank-line-insert.
 another line break test here:  poundsign + blank:
 # 
 <br><br><br>
