@@ -22,7 +22,19 @@ This causes a failure when 11ty or netlify (or some pre-processor) tries to blen
 <br>
 Chris Coyier is a smart guy.  Here he talks about markdown and blogs:
 https://css-tricks.com/probably-blog-markdown/
-<br>
+
+<br><br><br>
+
+BULMA AND MARKDOWN INCOMPATIBILITY
+When sticking markdown characters in my .md file, like
+greater than sign, pound sign, equal sign, line break slash  
+The markdown gets transformed to html, but then
+Bulma takes liberties with the generated html tags.
+Bulma over-rides the classes and psudo classes of the tags,
+like h1 no longer appear bold.
+when markdown gets iffy, I hackishly insert some old fashioned html.  Here are three br tags:
+
+<br><br><br>
 
 I am hitting enter as I type, to put in line breaks.
 Like this.
@@ -32,13 +44,16 @@ Ready for some blank lines?  here are three of them:
 
 
 
-OK, those three blanks did not appear.  now try three 'blank line's with a greater than sign in front:
+OK, those three blanks did not appear on the web page.  now try three 'blank line's with a greater than sign in front:
 >
 >
 >
-inserting blank lines in markdown.... Not sure how.  when markdown gets iffy, just insert some old fashioned html?  Here are three br tags:
+inserting blank lines in markdown.... Not sure how., without that br hack. 
 <br><br><br>
 
+
+paragraph testing folows:
+<br><br><br>
 If I just type on and on, and on and on,  and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, then what?
 
 > So, here I am trying to do old school Markdown. I stuck a greater than sign on the front of this.  I am just typing away, as if I was a real author.  I don't worry about line breaks.  I am just typing like I am inside a word processor.  Everything is beautiful, in its own way. Everything is beautiful, in its own way. Everything is beautiful, in its own way. Everything is beautiful, in its own way. Everything is beautiful, in its own way. Everything is beautiful, in its own way. Everything is beautiful, in its own way. Everything is beautiful, in its own way.  Now I am at the end of the paragraph.
@@ -56,7 +71,6 @@ Like, where line breaks come in.
 and whether I can stick a greater than sign on the front of text, like this:
 > hello I am text with a greater than sign in front.
 
-===========================
 here is my attempt at three blank lines, by putting a slash on the line:
 /
 /
@@ -66,17 +80,20 @@ here is my attempt at theree blank lines, by putting space space slash on the li
   /
   /  
   
-============================
 
-=====
-ok, equal signs below this line makes this line transform to bold.  sheesh.
-=====
+ok, equal sign below this line makes this line transform to bold, but only in the markdown editor.  sheesh.
+=
 
-and, usually, Markdown does h1 stuff when you stick a pound sign on the front of text, like this:
-# hello I am a header.  
-but because I use bulma.css, maybe the h1 stuff gets over-written?
-The text appears bold while I type it here, but that is probably cuz the github editor is taking liberties.  
+^^^ trying three carats for a divider
+^^^
+Markdown creates h1 stuff when you stick a pound sign on the front of text, like this:
+# hello I am a header.  This line has a poundsign on the front.
+ 
+For pound sign header, the text appears bold in the markdown editor, but that is probably cuz the github editor is taking liberties.
+I see the generated html has the h1 tag, but BULMA overwrites it with bulma.css
+^^^
 If I was to create .md files outside of github, then upload those .md files, then maybe I would be happier.
+^^^
 
 
 
