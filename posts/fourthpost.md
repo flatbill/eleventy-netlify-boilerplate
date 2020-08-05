@@ -9,12 +9,23 @@ tags:
   - programming
 ---
 
-markdown file naming:
+# markdown file naming:
 This file is called fourthpost .md but maybe the name is unimportant?
 like, I could create another post called legCramp .md and stick it on github in the right folder,
 and it would be added to this blog?
 
 OK, so what should I type in this markdown file?  My words and wisdom, of course, but should I be concerned about format?
+
+
+# Front Matter is a 11ty / markdown convention.  it is in the top of the .md file.
+The Front Matter format....   stick three dashes on two lines, as a wrapper for these thingies:
+dash dash dash
+title	
+date	
+author	
+summary	
+tags
+dash dash dash
 
 in the top section of this .md file,  (Front Matter) I stuck in an extra colon.  Bad move.
 summary: I am taking over fourthpost .md   to write some handy tips about markdown.  A goal: bla bla 
@@ -22,10 +33,11 @@ This causes a failure when 11ty or netlify (or some pre-processor) tries to blen
 <br>
 Chris Coyier is a smart guy.  Here he talks about markdown and blogs:
 https://css-tricks.com/probably-blog-markdown/
-
+From Chris:
+The point is: when you blog in Markdown, you’re writing in a clean language that translates to very clean HTML. Just your standard <p>s, <ul>s, <ol>s, <blockquotes>s and the like. Good ol’ semantic and accessible content.
 <br><br><br>
 
-BULMA AND MARKDOWN INCOMPATIBILITY
+# BULMA AND MARKDOWN INCOMPATIBILITY
 When sticking markdown characters in my .md file, like
 greater than sign, pound sign, equal sign, line break slash  
 The markdown gets transformed to html, but then
@@ -44,7 +56,7 @@ includes / css folder of this githup repo.
 https://gist.github.com/joallard/06f113b690d5553d90187a53bc38cb15
 
 <br><br><br>
-line break experiments go here ...
+# line break experiments go here ...
 
 I am hitting enter as I type, to put in line breaks.
 Like this.
@@ -58,13 +70,24 @@ OK, those three blanks did not appear on the web page.  now try three 'blank lin
 >
 >
 >
+
+
+here is my attempt at three blank lines, by putting a slash on the line:
+/
+/
+/
+here is my attempt at theree blank lines, by putting space space slash on the line:
+  /
+  /
+  /  
+
 inserting blank lines in markdown.... Not sure how., without that br hack. 
 <br><br><br>
 
 another line break test here:  poundsign + blank:
 # 
 
-paragraph testing folows:
+# paragraph testing folows:
 <br><br><br>
 If I just type on and on, and on and on,  and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, then what?
 
@@ -83,14 +106,6 @@ Like, where line breaks come in.
 and whether I can stick a greater than sign on the front of text, like this:
 > hello I am text with a greater than sign in front.
 
-here is my attempt at three blank lines, by putting a slash on the line:
-/
-/
-/
-here is my attempt at theree blank lines, by putting space space slash on the line:
-  /
-  /
-  /  
   
 
 ok, equal sign below this line makes this line transform to bold, but only in the markdown editor.  sheesh.
@@ -125,5 +140,4 @@ As a blogger, I guess I have to follow rules when creating .md files:
 a) stick some front loader stuff in the top of the .md file 
 a) the web page programming uses bulma, so dont type pound sign and other characters in the line starting character.
 b) inserting image 'reference' is OK, but this reference means a link to somewhere, so the image is NOT stored with the .md file.
-
 
