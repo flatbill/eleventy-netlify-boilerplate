@@ -1,16 +1,22 @@
 ---
-title: This is my fourth post
+title: The Joy and Sorrow of Markdown  
 date: 2017-02-03T00:00:00.000Z
-author: John Doe
-summary: Our Natural World
+author: Nobody Cares
+summary: I am taking over fourthpost .md   to write some handy tips about markdown.  Yes, this is opinioned.  Yes, I am grouchy today. A goal:  learn enough about markdown, to see if I could adopt an approach to web pages, where I use markdown files for the content (mostly text), and rely on the web page programming to do the layout and format.
 tags:
   - environment
   - politics
-  - nature
+  - programming
 ---
-The natural world is the only world we know. And we know a lot, compared to people 10,000 years ago.
+
+markdown file naming:
+This file is called fourthpost .md but maybe the name is unimportant?
+like, I could create another post called legCramp .md and stick it on github in the right folder,
+and it would be added to this blog?
 
 OK, so what should I type in this markdown file?  My words and wisdom, of course, but should I be concerned about format?
+
+
 I am hitting enter as I type, to put in line breaks.
 Like this.
 And this.
@@ -23,6 +29,8 @@ OK, those three blanks did not appear.  now try three 'blank line's with a great
 >
 >
 >
+inserting blank lines in markdown.... Not sure how.  when markdown gets iffy, just insert some old fashioned html?  Here are three br tags:
+<br><br><br>
 
 If I just type on and on, and on and on,  and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, then what?
 
@@ -46,7 +54,6 @@ and, usually, Markdown does h1 stuff when you stick a pound sign on the front of
 but because I use bulma.css, maybe the h1 stuff gets over-written?
 The text appears bold while I type it here, but that is probably cuz the github editor is taking liberties.  
 If I was to create .md files outside of github, then upload those .md files, then maybe I would be happier.
-
 
 
 
