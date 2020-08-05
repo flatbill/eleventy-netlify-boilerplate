@@ -12,11 +12,9 @@ section: post
   </p>
   
   <content class="content">
-    <h5>{{ summary }}</h5>
-   </content>  
-   
-  {{ layoutContent | safe }}
-
+    <h5>{{ summary }}</h5>   
+    {{ layoutContent | safe }}
+  </content>  
 
   {% if tags %}
     <p>
