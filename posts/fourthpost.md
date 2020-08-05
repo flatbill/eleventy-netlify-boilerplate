@@ -167,3 +167,24 @@ https://gist.github.com/joallard/06f113b690d5553d90187a53bc38cb15
 Experimented with content tag and content class (content class is part of bulma)
 in post .njk file, and now the h5 tags are styled OK.
 I just wonder now about using ANY bulma styles beyond the navbar.
+
+
+
+
+{:.selzClass1 } hello from class selzClass1
+I added a plug in so that I could put CSS classes in a .md file.  Maybe not a good technique.
+
+###### what about .css ?
+is it bad manners to tie a css class to a portion of md words?
+at least, if i did that, I would do no formatting in the md,
+instead, i would rely on the class to do the layout & formatting.
+like classes in bulma.
+
+
+##### images?
+There is also a HACK to work with images in the includes/ images / static folder (or some crazy path like that).
+i am using a relative path when defining anchor and href img-src, for the bulma menu logo.
+but the relative path changes when the Url gets into sub-folders.
+so, the nav .njk snippet has a HACK to find the right folder--   ./  or ../    (geez.)
+Maybe solve this with a base tag instead, or a njk var set from the base url,
+then use the njk var in the anchor href img-src.
