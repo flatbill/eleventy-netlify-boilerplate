@@ -4,7 +4,7 @@ section: post
 ---
 
   <content class="content">
-    <p class="button is-static has-background-info is-fullwidth has-text-weight-bold">{{ title }}</p> 
+    <p class="button is-static is-fullwidth has-background-info  has-text-black-bis">{{ title }}</p> 
     <p> <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by <a href="/authors/{{ author | slug }}/">{{ author }}</a> </p>
     <h6>{{ summary }}</h6>   
     {{ layoutContent | safe }}
