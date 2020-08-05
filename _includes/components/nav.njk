@@ -4,7 +4,7 @@
   {% set navPages = collections.all | eleventyNavigation %}
   <div class="navbar-brand">
     <a class="navbar-item" href="/">  
-    {% if '/posts' in page.url %} 
+    {% if '/posts' in page.url or '/tags' in page.url %} 
       {% set xImgUrl = "../../static/img/logo27.png" %}
     {% else %} 
       {% set xImgUrl = "../static/img/logo27.png" %}
