@@ -6,10 +6,10 @@ section: post
 
 <article>
   <content class="content">
-  <h5>{{ title }}</h5>
-  <p> <small>
+  <h6>{{ title }}</h6>
+  <p> 
       <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by <a href="/authors/{{ author | slug }}/">{{ author }}</a>
-   </small> </p>
+  </p>
     <h5>{{ summary }}</h5>   
     {{ layoutContent | safe }}
   </content>  
