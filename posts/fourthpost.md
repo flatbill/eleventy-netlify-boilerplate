@@ -56,6 +56,22 @@ Like, where line breaks come in.
 and whether I can stick a greater than sign on the front of text, like this:
 > hello I am text with a greater than sign in front.
 
+===========================
+here is my attempt at three blank lines, by putting a slash on the line:
+/
+/
+/
+here is my attempt at theree blank lines, by putting space space slash on the line:
+  /
+  /
+  /  
+  
+============================
+
+=====
+ok, equal signs below this line makes this line transform to bold.  sheesh.
+=====
+
 and, usually, Markdown does h1 stuff when you stick a pound sign on the front of text, like this:
 # hello I am a header.  
 but because I use bulma.css, maybe the h1 stuff gets over-written?
