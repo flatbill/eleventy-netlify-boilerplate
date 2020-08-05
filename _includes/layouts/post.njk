@@ -5,9 +5,8 @@ section: post
 
 
 <article>
-  {{ title }}
+  <h5> {{ title }} </h5>
   <content class="content">
-
   <p> 
       <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by <a href="/authors/{{ author | slug }}/">{{ author }}</a>
   </p>
