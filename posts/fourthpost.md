@@ -36,6 +36,16 @@ when markdown gets iffy, I hackishly insert some old fashioned html.  Here are t
 
 <br><br><br>
 
+A guy created some css to hack past the bulma/markdown mismatch.
+The idea is you override some bulma styles with old fashioned styles
+for h1 blockquote  (etc).  Maybe just borrow a couple of styles here,
+and insert them into the top of my custom bulma.css file that is in the
+includes / css folder of this githup repo.
+https://gist.github.com/joallard/06f113b690d5553d90187a53bc38cb15
+
+<br><br><br>
+line break experiments go here ...
+
 I am hitting enter as I type, to put in line breaks.
 Like this.
 And this.
