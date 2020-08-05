@@ -9,7 +9,7 @@ tags:
   - programming
 ---
 
-# markdown file naming:
+##### markdown file naming:
 This file is called fourthpost .md but maybe the name is unimportant?
 like, I could create another post called legCramp .md and stick it on github in the right folder,
 and it would be added to this blog?
@@ -18,7 +18,7 @@ and it would be added to this blog?
 OK, so what should I type in this markdown file?  My words and wisdom, of course, but should I be concerned about format?
 <br><br><br>
 
-# Front Matter is a 11ty / markdown convention.  it is in the top of the .md file.
+##### Front Matter is a 11ty / markdown convention.  it is in the top of the .md file.
 The Front Matter format....   stick three dashes on two lines, as a wrapper for these thingies:
 dash dash dash
 title	
@@ -29,7 +29,7 @@ tags
 dash dash dash
 <br><br><br>
 
-# weirdness when creating the summary
+##### weirdness when creating the summary
 in the top section of this .md file,  (Front Matter) I stuck in an extra colon.  Bad move.
 summary: I am taking over fourthpost .md   to write some handy tips about markdown.  A goal: bla bla 
 notice two colons above.
@@ -42,7 +42,7 @@ The point is: when you blog in Markdown, you’re writing in a clean language th
 Just your standard p's, ul's, ol's, blockquotes's and the like. Good ol’ semantic and accessible content.
 <br><br><br>
 
-# Become a Markup Purist
+##### Become a Markup Purist
 https://daringfireball.net/projects/markdown/syntax#html
 As an author, (not a programmer),
 I will type only GOOD words into my .md file.
@@ -55,7 +55,7 @@ For now, until the programmer fixes stuff,
 I keep putting html br br br in my markdown.
 <br><br><br>
 
-# BULMA AND MARKDOWN INCOMPATIBILITY
+##### BULMA AND MARKDOWN INCOMPATIBILITY
 When sticking markdown characters in my .md file, like
 greater than sign, pound sign, equal sign, line break slash  
 The markdown gets transformed to html, but then
@@ -74,7 +74,7 @@ https://gist.github.com/joallard/06f113b690d5553d90187a53bc38cb15
 <br><br><br>
 
 
-# line break experiments go here ...
+##### line break experiments go here ...
 
 I am hitting enter as I type, to put in line breaks.
 Like this.
@@ -103,10 +103,10 @@ here is my attempt at theree blank lines, by putting space space slash space spa
   /  
 none of the techniques work for blank-line-insert.
 another line break test here:  poundsign + blank:
-# 
+##### 
 <br><br><br>
 
-# paragraph testing folows:
+##### paragraph testing folows:
 <br> 
 If I just type on and on, and on and on,  and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, and on and on, then what?
 <br><br>
@@ -134,18 +134,18 @@ https://daringfireball.net/projects/markdown/basics
 <br><br><br>
 
 Markdown creates h1 stuff when you stick a pound sign on the front of text, like this:
-# hello I am a header.  This line has a poundsign on the front.
+##### hello I am a header.  This line has a poundsign on the front.
 For pound sign header, 
 I see the generated html has the h1 tag, but BULMA overwrites it with bulma.css
 <br><br><br>
 
 
-# Where to store my .md files
+##### Where to store my .md files
 If I was to create .md files outside of github, then upload those .md files, then maybe I would be happier.
 I coulld use any text editor, like maybe vs code.
 <br><br><br>
 
-# how do I create blocks of text that I dont want translated
+##### how do I create blocks of text that I dont want translated
 here is markdown for a sample image, escaped with three quotes on the front and back:
 '''![A sample inlined image](https://source.unsplash.com/random/600x400)'''
 The stupid three quotes dont wrap it.  I need some other kind of wrapper.
@@ -155,11 +155,11 @@ I hope to stay away from an html wrapper, like "code" or "object"
 <br><br><br>
   
   
-# here is markdown with a sample image:
+##### here is markdown with a sample image:
 ![A sample inlined image](https://source.unsplash.com/random/600x400)
 <br><br><br>
 
-# Images in markdown
+##### Images in markdown
 So, now I know how to stick images in this markdown, instead of images in the html.
 When do images belong in html ? (or in an njk file in this case) 
 What images belong in the .md file?   (maybe blog-ish images?)
@@ -167,17 +167,20 @@ When is the blogger a different person than the web page programmer?
 What does a blogger have to know about that damn web page programming?
 <br><br><br>
 
-# Blogger markdown rules
+##### Blogger markdown rules
 a) stick some front matter stuff in the top of the .md file 
 a) I hope the web page programmer (me) fixes bulma.css , so I can type pound sign and other characters in the line starting character.
 b) inserting image 'reference' is OK, but this reference means a link to somewhere, so the image is NOT stored with the .md file.
 <br><br><br>
 
-# fix  bulma or fix the markdown parser
+##### fix  bulma or fix the markdown parser or fix the html tags in the layout
 The idea is that this markdown file is 'fine',
 It is the other teammates that are playing unfairly.
 Change my bulma.css like this guy fixed his css:
 https://gist.github.com/joallard/06f113b690d5553d90187a53bc38cb15
+Experimented with content tag and content class (content class is part of bulma)
+in post .njk file, and now the h5 tags are styled OK.
+I just wonder now about using ANY bulma styles beyond the navbar.
 <br><br><br>
 
 
