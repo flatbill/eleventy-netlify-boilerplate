@@ -10,10 +10,13 @@ section: post
       <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by <a href="/authors/{{ author | slug }}/">{{ author }}</a>
     </small>
   </p>
-  <content>
+  
+  <content class="content">
     <h5>{{ summary }}</h5>
-    {{ layoutContent | safe }}
-  </content>
+   </content>  
+   
+  {{ layoutContent | safe }}
+
 
   {% if tags %}
     <p>
