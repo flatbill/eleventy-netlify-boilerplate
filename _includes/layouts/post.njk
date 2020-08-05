@@ -4,10 +4,8 @@ section: post
 ---
 
   <content class="content">
-  <h5> {{ title }} </h5>
-  <p> 
-      <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by <a href="/authors/{{ author | slug }}/">{{ author }}</a>
-  </p>
+    <p class="button has-background-info is-fullwidth has-text-weight-semibold">{{ title }}</p> 
+    <p> <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by <a href="/authors/{{ author | slug }}/">{{ author }}</a> </p>
     <h5>{{ summary }}</h5>   
     {{ layoutContent | safe }}
   </content>  
