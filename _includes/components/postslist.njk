@@ -1,7 +1,7 @@
 <section>
 	{% for post in postslist | reverse %}
 	  
-         <a class=" box has-background-info-light" href="{{ post.url | url }}" id={{ post.data.title }} >
+         <a class=" box has-background-info-light" href="{{ post.url | url }}" id="{{ post.data.title }}" >
 	   <p class="button has-background-info is-fullwidth has-text-weight-semibold"> {{ post.data.title }} </p>
 	   <p> {{ post.data.summary }} </p>
            <p> {{ post.date | readableDate }} by {{ post.data.author}} </p>
