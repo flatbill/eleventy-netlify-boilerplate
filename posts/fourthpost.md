@@ -2,7 +2,7 @@
 title: The Joy and Sorrow of Markdown  
 date: 2017-02-03T00:00:00.000Z
 author: Nobody Cares
-summary: I am taking over fourthpost .md   to write some handy tips about markdown.  Yes, this is opinioned.  Yes, I am grouchy today. A goal:  learn enough about markdown, to see if I could adopt an approach to web pages, where I use markdown files for the content (mostly text), and rely on the web page programming to do the layout and format.
+summary: I am taking over fourthpost .md   to write some handy tips about markdown.  Yes, this is opinioned.  Yes, I am grouchy today. A goal--  learn enough about markdown, to see if I could adopt an approach to web pages, where I use markdown files for the content (mostly text), and rely on the web page programming to do the layout and format.
 tags:
   - environment
   - politics
@@ -16,6 +16,13 @@ and it would be added to this blog?
 
 OK, so what should I type in this markdown file?  My words and wisdom, of course, but should I be concerned about format?
 
+in the top section of this .md file,  (Front Matter) I stuck in an extra colon.  Bad move.
+summary: I am taking over fourthpost .md   to write some handy tips about markdown.  A goal: bla bla 
+This causes a failure when 11ty or netlify (or some pre-processor) tries to blend this markdown into the web pages.
+<br>
+Chris Coyier is a smart guy.  Here he talks about markdown and blogs:
+https://css-tricks.com/probably-blog-markdown/
+<br>
 
 I am hitting enter as I type, to put in line breaks.
 Like this.
