@@ -115,7 +115,7 @@ here is markdown for a sample image, escaped with three quotes on the front and 
 ``` text/2-3
 ![A sample inlined image](https://source.unsplash.com/random/600x400)
 '''
-The stupid three quotes dont wrap the program statement? 
+The stupid three quotes dont wrap the program statement? ??
 I hope to stay away from imbedding  html in the .md , like "code" or "object"
 I still have figured out what the cool kids are doing about this.
 Maybe cool kids do this:    (it works for some stuff, duznt work for wrapping linkImage markdown ? )
