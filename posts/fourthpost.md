@@ -46,7 +46,6 @@ As an author, (not a programmer),
 I will type only GOOD words into my .md file.
 I will use only the p's ul's ol's blockquotes and I will use markdown shorthand for them.
 
-
 <br> 
 If a parser & renderer can't make sense of my expert .md file,
 well then, ya gotta push the programmer into fixing it.
@@ -113,11 +112,13 @@ I could use any text editor, like maybe vs code.
 
 ##### how do I create blocks of text that I dont want translated ?
 here is markdown for a sample image, escaped with three quotes on the front and back:
-'''![A sample inlined image](https://source.unsplash.com/random/600x400)'''
-The stupid three quotes dont wrap it.  I need some other kind of wrapper.
+''' wrapper start
+![A sample inlined image](https://source.unsplash.com/random/600x400)
+'''
+The stupid three quotes dont wrap the program statement? 
 I hope to stay away from imbedding  html in the .md , like "code" or "object"
 I still have figured out what the cool kids are doing about this.
-Maybe cool kids do this:
+Maybe cool kids do this:    (it works for some stuff, duznt work for wrapping linkImage markdown ? )
 ``` text/2-3
 // this is a command
 function myCommand() {
