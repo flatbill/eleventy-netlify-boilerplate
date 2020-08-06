@@ -117,6 +117,15 @@ here is markdown for a sample image, escaped with three quotes on the front and 
 The stupid three quotes dont wrap it.  I need some other kind of wrapper.
 I hope to stay away from imbedding  html in the .md , like "code" or "object"
 I still have figured out what the cool kids are doing about this.
+Maybe cool kids do this:
+``` text/2-3
+// this is a command
+function myCommand() {
+	let counter = 0;
+	counter++;
+}
+<dummy> words for dummies </dummy>
+```
   
 ##### here is markdown with a sample image:
 ![A sample inlined image](https://source.unsplash.com/random/600x400)
@@ -168,6 +177,8 @@ then use the njk var in the anchor href img-src.
 https://wilsonmar.github.io/markdown-text-for-github-from-html/
 https://bryanlrobinson.com/blog/using-nunjucks-if-expressions-to-create-an-active-navigation-state-in-11ty/
 https://daringfireball.net/projects/markdown/syntax#em
+
+
 
 
 ##### line break experiments go here ...
