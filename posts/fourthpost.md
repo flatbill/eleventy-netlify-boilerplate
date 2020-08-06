@@ -191,3 +191,4 @@ then use the njk var in the anchor href img-src.
 
 ##### links on markdown
 https://wilsonmar.github.io/markdown-text-for-github-from-html/
+https://bryanlrobinson.com/blog/using-nunjucks-if-expressions-to-create-an-active-navigation-state-in-11ty/
