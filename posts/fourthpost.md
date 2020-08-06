@@ -187,3 +187,7 @@ but the relative path changes when the Url gets into sub-folders.
 so, the nav .njk snippet has a HACK to find the right folder--   ./  or ../    (geez.)
 Maybe solve this with a base tag instead, or a njk var set from the base url,
 then use the njk var in the anchor href img-src.
+
+
+##### links on markdown
+https://wilsonmar.github.io/markdown-text-for-github-from-html/
