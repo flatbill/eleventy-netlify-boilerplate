@@ -40,11 +40,13 @@ The point is: when you blog in Markdown, you’re writing in a clean language th
 Just your standard p's, ul's, ol's, blockquotes's and the like. Good ol’ semantic and accessible content.
 <br><br><br>
 
-##### Become a Markup Purist
+##### Become a Markdown Purist
 https://daringfireball.net/projects/markdown/syntax#html
 As an author, (not a programmer),
 I will type only GOOD words into my .md file.
 I will use only the p's ul's ol's blockquotes and I will use markdown shorthand for them.
+
+
 <br> 
 If a parser & renderer can't make sense of my expert .md file,
 well then, ya gotta push the programmer into fixing it.
@@ -71,33 +73,6 @@ includes / css folder of this githup repo.
 https://gist.github.com/joallard/06f113b690d5553d90187a53bc38cb15
 Well, this idea is a rabbit hole that maybe we can avoid if we just use the content tag & class in the post .njk file.
 
-##### line break experiments go here ...
-
-I am hitting enter as I type, to put in line breaks.
-Like this.
-And this.
-
-Ready for some blank lines?  here are three of them:
-
-
-
-OK, those three blanks did not appear on the web page.  now try three 'blank line's with a greater than sign in front. This makes it a blockquote:
->
->
->
-here is my attempt at three blank lines, by putting a slash on the line:
-/
-/
-/
-here is my attempt at theree blank lines, by putting space space slash on the line:
-  /
-  /
-  /  
-here is my attempt at theree blank lines, by putting space space slash space space on the line:
-  /  
-  /  
-  /  
-the slash techniques dont seem to work for blank-line-insert.
  
 ##### paragraph testing folows:
 <br> 
@@ -140,7 +115,8 @@ I could use any text editor, like maybe vs code.
 here is markdown for a sample image, escaped with three quotes on the front and back:
 '''![A sample inlined image](https://source.unsplash.com/random/600x400)'''
 The stupid three quotes dont wrap it.  I need some other kind of wrapper.
-I hope to stay away from an html wrapper, like "code" or "object"
+I hope to stay away from imbedding  html in the .md , like "code" or "object"
+I still have figured out what the cool kids are doing about this.
   
 ##### here is markdown with a sample image:
 ![A sample inlined image](https://source.unsplash.com/random/600x400)
@@ -161,23 +137,21 @@ b) inserting image 'reference' is OK, but this reference means a link to somewhe
 ##### fix  bulma or fix the markdown parser or fix the html tags in the layout
 The idea is that this markdown file is 'fine',
 It is the other teammates that are playing unfairly.
-Change my bulma.css like this guy fixed his css:
+One idea (probably WRONG) is to change my bulma.css like this guy fixed his css:
 https://gist.github.com/joallard/06f113b690d5553d90187a53bc38cb15
-Experimented with content tag and content class (content class is part of bulma)
+Another idea (probablY RIGHT) Experiment with content tag and content class (content class is part of bulma)
 in post .njk file, and now the h5 tags are styled OK.
-I just wonder now about using ANY bulma styles beyond the navbar.
-
-
-
-
-{:.selzClass1 } hello from class selzClass1
-I added a plug in so that I could put CSS classes in a .md file.  Maybe not a good technique.
+I  wonder if the bulma content tag and class have any bad influence on other bulma tags.
+So far, I have not noticed any bad effects.
+Bulma is powerful and simple, compared to other layout themes, and it's my starting point for angular apps.
 
 ###### what about .css ?
 is it bad manners to tie a css class to a portion of md words?
 at least, if i did that, I would do no formatting in the md,
 instead, i would rely on the class to do the layout & formatting.
 like classes in bulma.
+{:.selzClass1 } hello from class selzClass1
+I added a plug in so that I could put CSS classes in a .md file.  Maybe not a good technique.
 
 
 ##### images?
@@ -189,6 +163,37 @@ Maybe solve this with a base tag instead, or a njk var set from the base url,
 then use the njk var in the anchor href img-src.
 
 
+
 ##### links on markdown
 https://wilsonmar.github.io/markdown-text-for-github-from-html/
 https://bryanlrobinson.com/blog/using-nunjucks-if-expressions-to-create-an-active-navigation-state-in-11ty/
+https://daringfireball.net/projects/markdown/syntax#em
+
+
+##### line break experiments go here ...
+
+I am hitting enter as I type, to put in line breaks.
+Like this.
+And this.
+
+Ready for some blank lines?  here are three of them:
+
+
+
+OK, those three blanks did not appear on the web page.  now try three 'blank line's with a greater than sign in front. This makes it a blockquote:
+>
+>
+>
+here is my attempt at three blank lines, by putting a slash on the line:
+/
+/
+/
+here is my attempt at theree blank lines, by putting space space slash on the line:
+  /
+  /
+  /  
+here is my attempt at theree blank lines, by putting space space slash space space on the line:
+  /  
+  /  
+  /  
+the slash techniques dont seem to work for blank-line-insert.
