@@ -2,12 +2,11 @@
 title: The Joy and Sorrow of Markdown  
 date: 2020-08-05T00:00:00.000Z
 author: Nobody Cares
-summary: I am taking over fourthpost .md   to write some handy tips about markdown.  Yes, this is opinioned.  Yes, I am grouchy today. A goal--  learn enough about markdown, to see if I could adopt an approach to web pages, where I use markdown files for the content (mostly text), and rely on the web page programming to do the layout and format.
+summary: I am taking over fourthpost .md   to write some handy tips about markdown.  A goal--  learn enough about markdown, to see if I could adopt an approach to web pages, where I use markdown files for the content (mostly text), and rely on the web page programming to do the layout and format.
 tags:
-  - environment
-  - politics
   - programming
 ---
+#####
 
 ##### markdown file naming:
 This file is called fourthpost .md but maybe the name is unimportant?
