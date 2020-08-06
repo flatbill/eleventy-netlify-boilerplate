@@ -111,23 +111,14 @@ If I was to create .md files outside of github, then upload those .md files, the
 I could use any text editor, like maybe vs code.
 
 ##### how do I create blocks of text that I dont want translated ?
-here is markdown for a sample image, escaped with three quotes on the front and back:
-``` text/2-3
+here is markdown for a sample image, escaped with three slanty quotes on the front and back:
+``` slantyQuotes
 ![A sample inlined image](https://source.unsplash.com/random/600x400)
-'''
-The stupid three quotes dont wrap the program statement? ??
-I hope to stay away from imbedding  html in the .md , like "code" or "object"
-I still have figured out what the cool kids are doing about this.
-Maybe cool kids do this:    (it works for some stuff, duznt work for wrapping linkImage markdown ? )
-``` text/2-3
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
-<dummy> words for dummies </dummy>
 ```
-  
+
+###### three normal quotes dont wrap the lines.  ya gotta use the SLANTY quotes.
+Slanty quotes are in the upper left of the keyboard, next to the 1.
+ 
 ##### here is markdown with a sample image:
 ![A sample inlined image](https://source.unsplash.com/random/600x400)
 
