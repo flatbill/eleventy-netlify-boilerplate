@@ -112,7 +112,7 @@ I could use any text editor, like maybe vs code.
 
 ##### how do I create blocks of text that I dont want translated ?
 here is markdown for a sample image, escaped with three quotes on the front and back:
-''' wrapper start
+``` text/2-3
 ![A sample inlined image](https://source.unsplash.com/random/600x400)
 '''
 The stupid three quotes dont wrap the program statement? 
