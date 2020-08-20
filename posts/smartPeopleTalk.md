@@ -22,3 +22,8 @@ https://www.youtube.com/watch?v=f5QYSdpMs6Y
 
 Monica recommends learning about serverless functions:
 https://github.com/anaibol/awesome-serverless
+
+example netlify cms
+https://www.elpassion.com/blog/jam-stack-your-old-cms-into-the-closet
+
+
