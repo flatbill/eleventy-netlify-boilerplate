@@ -27,3 +27,5 @@ example netlify cms
 https://www.elpassion.com/blog/jam-stack-your-old-cms-into-the-closet
 
 
+fonts .... cool, or excessive madness?   ibm plex
+https://www.1001fonts.com/ibm-plex-mono-font.html
