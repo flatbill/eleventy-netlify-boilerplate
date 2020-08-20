@@ -7,8 +7,12 @@ tags:
   - technology
 ---
 
+
+##### Aug 20 focus on people who promote the STACK vs the old MONOLITH
+
 jamstack loblaw dev ops netlify
 https://www.netlify.com/customers/loblaw/
 
-jamstack contentful speed based architecture
+jamstack contentful guy talks about component mean speed based architecture
 https://www.youtube.com/watch?v=HSSLI0jcMm0&feature=emb_rel_pause
+
