@@ -16,3 +16,5 @@ https://www.netlify.com/customers/loblaw/
 jamstack contentful guy talks about component mean speed based architecture
 https://www.youtube.com/watch?v=HSSLI0jcMm0&feature=emb_rel_pause
 
+Monica is smart and fun and builds web stuff
+https://www.youtube.com/watch?v=f5QYSdpMs6Y
