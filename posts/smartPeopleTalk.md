@@ -18,3 +18,6 @@ https://www.youtube.com/watch?v=HSSLI0jcMm0&feature=emb_rel_pause
 
 Monica Dinculescu is smart and fun and builds web stuff, static sites
 https://www.youtube.com/watch?v=f5QYSdpMs6Y
+
+Monica recommends learning about serverless functions:
+https://github.com/anaibol/awesome-serverless
