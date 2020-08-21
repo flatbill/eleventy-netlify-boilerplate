@@ -39,10 +39,9 @@ I'm trying bulma.css in the ntk files.  Then put content into markdown .md files
 
 ##### how to create blog info. (create 'posts').
 Create more .md files in github, and re-publish.
-I mean, go to github, folder bla bla /posts, create like sixthPost.md file to do a new post. 
+I mean, go to github, folder bla bla /posts, create like ```myNewPostAug2020.md``` file to do a new post. 
 
  
-
 ##### why 11ty  Blog here?
 Mainstream blog apps like wordpress might be a better fit for most.
 those apps make pretty pages by choosing a template 'off the rack'.
