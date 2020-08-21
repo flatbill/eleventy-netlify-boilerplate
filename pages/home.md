@@ -27,11 +27,12 @@ Set Netlify auto-publish ON, or manually trigger a Netlify deploy of this site.
 
 ##### Why use 11ty on Netlify ?
 11ty (or Eleventy) an up-and-coming JavaScript static site generator.
+
 Some call 11ty a way to do Component Driven Design.  It feels more like snippet-driven-design. 
 Seperate content from layout.
-A static site. 
 11ty seems to be a tool for people who used to be web masters.
 There is learning curve to 11ty. There are help and tutorial sites.
+https://snipcart.com/blog/choose-best-static-site-generator
 11ty might be a quick way to do demos and project ideas without full blown angular.
 
 ##### How do I pretty up this ugly site?
