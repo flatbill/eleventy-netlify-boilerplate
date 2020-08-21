@@ -53,8 +53,10 @@ and ya don't wanna bother with a blog  (like kill the blog and posts stuff)
 and instead, a wanna create a portfolio-ish 'static' site...
 then maybe start with this boiler plate page,  change the nav stuff,
 and create a .njk file (and maybe a .md file)  for each nav option.
-The .md file has a line for which layout (njk file) it should use.
+The .md file has a Front Matter heading area.
+In the Front Matter heading, there is a line for which layout (njk file) it should use.
 So, for a portfolio, maybe stick nice html into each .njk file.
+For example, this markdown file '''home.md''' has a line: '''layout: layouts/home.njk'''.
 
 July 2020 I've been working on the .njk templates, 
 along with the .md files.
