@@ -9,17 +9,19 @@ eleventyNavigation:
   order: 0
 ---
 # Welcome Home Sentient Beings
-home file is eleventy-netlify-boilerplate/pages/home.md
-this web page is a mix of .ntk (nunjucks)  and  .md (markdown text files)
-Look mom, i'm writing text as markdown in eleventy-netlify-boilerplate/pages/home.md
+Home file is eleventy-netlify-boilerplate/pages/home.md
+These web pages are a mix of .ntk (nunjucks)  and  .md (markdown text files).
+
+>Look mom, i'm writing text as markdown in eleventy-netlify-boilerplate/pages/home.md
 See the BLOG section for notes on markdown.
 
-##### Why use this approach of Netlify + 11ty ?
-I suppose it's OK if you already love 11ty,
-along with the static page and snippet-driven-design.
-OK, some call this Component Driven Design.  Sheesh.
-If you are using Netlify, then maybe this approach gets you started.
-But there is a learning curve to 11ty.  
+##### Why use this approach of  11ty on Netlify ?
+Some call this Component Driven Design.  It feels more like snippet-driven-design. 
+Seperate content from layout.
+A static site. 
+ 
+
+there is a learning curve to 11ty.  
 It seems to be a tool for tech people, 
 who want to hand-craft their website.
 I built an ugly site here.  Maybe somebody 11ty-oriented could pretty it up.
