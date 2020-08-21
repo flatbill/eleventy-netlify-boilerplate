@@ -15,22 +15,31 @@ These web pages are a mix of .ntk (nunjucks)  and  .md (markdown text files).
 >Look mom, i'm writing text as markdown in eleventy-netlify-boilerplate/pages/home.md
 See the BLOG section for notes on markdown.
 
-##### Why use this approach of  11ty on Netlify ?
-Some call this Component Driven Design.  It feels more like snippet-driven-design. 
+###### How does this site work ?
+This '11ty app' is in a github repo. 
+Tie the github repo to a Netlify site.  I forgot how I did that in Netlify.  
+Maybe Netlify site settings, build settings.  Oh, and Netlify somehow has 'rights' to read my github repo.
+
+For changes (in my repo) to take effect:
+Set Netlify auto-publish ON, or manually trigger a Netlify deploy of this site. 
+
+How do I pretty up this ugly site?
+I'm trying bulma.css in the ntk files.  Then put content into markdown .md files.
+
+
+
+##### Why use 11ty on Netlify ?
+Some call 11ty a way to do Component Driven Design.  It feels more like snippet-driven-design. 
 Seperate content from layout.
 A static site. 
- 
-
+11ty seems to be a tool for people who used to be web masters.
 there is a learning curve to 11ty.  
-It seems to be a tool for tech people, 
-who want to hand-craft their website.
-I built an ugly site here.  Maybe somebody 11ty-oriented could pretty it up.
-I'm trying to use bulma.css and markdown .md ,  and the various .ntk files.
+
 
 ##### how to create blog info. (create 'posts').
-It seems like you create more .md files in github, and re-publish.
-I mean, go to github, folder bla bla bla, create sixthPost.md file 
-to do a new post.  More info on the blog pages.
+Create more .md files in github, and re-publish.
+I mean, go to github, folder bla bla /posts, create like sixthPost.md file to do a new post. 
+
  
 
 ##### why 11ty  Blog here?
