@@ -63,3 +63,5 @@ SECRET is pasted in from fauna db (where I generated a secret)
 
 
 
+##### learn more about netlify functions (lambdas easier than AWS)
+https://github.com/netlify/netlify-functions-example
