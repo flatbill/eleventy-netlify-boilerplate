@@ -27,4 +27,5 @@ https://www.1001fonts.com/ibm-plex-mono-font.html
 https://scotch.io/tutorials/deploying-an-angular-app-to-netlify#toc-tldr-how-do-we-deploy-an-angular-app-to-netlify-
 
 
-
+###### netlify redirects
+https://docs.netlify.com/configure-builds/file-based-configuration/#redirects
