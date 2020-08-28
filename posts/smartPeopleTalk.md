@@ -30,5 +30,5 @@ https://www.elpassion.com/blog/jam-stack-your-old-cms-into-the-closet
 fonts .... cool, or excessive madness?   ibm plex
 https://www.1001fonts.com/ibm-plex-mono-font.html
 
-###### angular on netlify 
+###### angular on netlify Aug 2020
 https://scotch.io/tutorials/deploying-an-angular-app-to-netlify#toc-tldr-how-do-we-deploy-an-angular-app-to-netlify-
