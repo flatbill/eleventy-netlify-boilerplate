@@ -1,3 +1,13 @@
+---
+title: dev Help Aug2020 
+date: 2020-08-25T00:00:00.000Z
+author: Nobody Cares
+summary:  links and notes about doing web development in Aug2020.  projects like questool5.
+tags:
+  - programming
+---
+
+
 ##### Favicon.   lotsa work to put a crummy icon on the browser tab.
  
 draw an icon on this page:
@@ -15,3 +25,6 @@ https://www.1001fonts.com/ibm-plex-mono-font.html
 
 ###### angular on netlify Aug 2020
 https://scotch.io/tutorials/deploying-an-angular-app-to-netlify#toc-tldr-how-do-we-deploy-an-angular-app-to-netlify-
+
+
+
