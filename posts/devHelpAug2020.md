@@ -32,3 +32,5 @@ https://docs.netlify.com/configure-builds/file-based-configuration/#redirects
 what the heck is a splat?
 https://docs.netlify.com/routing/redirects/redirect-options/#custom-404-page-handling
 
+###### colors
+https://www.sessions.edu/color-calculator/
