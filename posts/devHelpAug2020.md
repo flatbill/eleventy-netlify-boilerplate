@@ -29,3 +29,6 @@ https://scotch.io/tutorials/deploying-an-angular-app-to-netlify#toc-tldr-how-do-
 
 ###### netlify redirects
 https://docs.netlify.com/configure-builds/file-based-configuration/#redirects
+what the heck is a splat?
+https://docs.netlify.com/routing/redirects/redirect-options/#custom-404-page-handling
+
