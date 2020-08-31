@@ -35,6 +35,8 @@ https://docs.netlify.com/routing/redirects/redirect-options/#custom-404-page-han
 ###### colors
 https://www.sessions.edu/color-calculator/
 
-###### function declaration
-https://www.freecodecamp.org/news/constant-confusion-why-i-still-use-javascript-function-statements-984ece0b72fd/
+###### functions
+https://www.freecodecamp.org/news/constant-confusion-why-i-still-use-javascript-function-statements-984ece0b72fd/ 
+8:54:49 AM: Different functions path detected, going to use the one specified in the Netlify configuration file: 'functions' versus '' in the Netlify UI
+
 
