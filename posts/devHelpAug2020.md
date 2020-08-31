@@ -30,7 +30,13 @@ https://scotch.io/tutorials/deploying-an-angular-app-to-netlify#toc-tldr-how-do-
 ###### netlify redirects
 https://docs.netlify.com/configure-builds/file-based-configuration/#redirects
 what the heck is a splat?
+some ruby-ish word that means we dont know yet how many arguments to pass in.
+so, somehow redirects (or lack of them) uses something splat-ish to route 'bad' request like myApp/foonookoo to a catch all 404.
 https://docs.netlify.com/routing/redirects/redirect-options/#custom-404-page-handling
+who cares about the wanky name on some user typed in on the URL...
+instead, we might want to redirect requests like request like myApp/foonookoo to a main SPA page.  
+this seems like a better idea when the app is an angular SPA.
+
 
 ###### colors
 https://www.sessions.edu/color-calculator/
