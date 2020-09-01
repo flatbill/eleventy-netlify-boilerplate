@@ -50,7 +50,7 @@ https://www.freecodecamp.org/news/constant-confusion-why-i-still-use-javascript-
 3. change the web app to call the new function.  (example React.   App.js)
 ```
 <button  data-id={id} onClick={this.readTodoAndLogIt} > readTodoAndLogIt </button>
-... then later ...
+... elsewhere, write this funny func.  This is inside app.js, not the netlify external lambda function...
  ////////////////////////////////////////////////////////////////
   readTodoAndLogIt = (e) => {
     const todoId = e.target.dataset.id
