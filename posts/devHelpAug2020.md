@@ -47,3 +47,17 @@ https://www.freecodecamp.org/news/constant-confusion-why-i-still-use-javascript-
 
 1. Create new function in netlify-faunadb-example2/functions/ folder   !! make sure you name it with .js on the end !!
 2. add function definition & export to: netlify-faunadb-example2/src/utils/   (func define. export at the bottom) 
+3. change the web app to call the new function.  (example React)
+```
+ ////////////////////////////////////////////////////////////////
+  wango = (e) => {
+    const todoId = e.target.dataset.id
+    // Make API request 
+    api.readTodo2(todoId).then(() => {
+      console.log(`read todo id ${todoId}`)     
+    }).catch((e) => {
+      console.log(`There was an error reading ${todoId}`, e)
+    })
+  }
+  /////////////////////////////////////////////////////////////////
+```
