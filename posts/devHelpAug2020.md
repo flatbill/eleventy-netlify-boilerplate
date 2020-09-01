@@ -31,10 +31,10 @@ https://scotch.io/tutorials/deploying-an-angular-app-to-netlify#toc-tldr-how-do-
 https://docs.netlify.com/configure-builds/file-based-configuration/#redirects
 what the heck is a splat?
 some ruby-ish word that means we dont know yet how many arguments to pass in.
-so, somehow redirects (or lack of them) uses something splat-ish to route 'bad' request like myApp/foonookoo to a catch all 404.
+so, somehow redirects (or lack of them) use something splat-ish to route 'bad' request like myApp/foonookoo to a catch all 404.
 https://docs.netlify.com/routing/redirects/redirect-options/#custom-404-page-handling
-who cares about the wanky name on some user typed in on the URL...
-instead, we might want to redirect requests like request like myApp/foonookoo to a main SPA page.  
+who cares about the wanky name on some user typed in on the URL ???
+instead, we might want to redirect requests like myApp/foonookoo to a main SPA page.  
 this seems like a better idea when the app is an angular SPA.
 
 
@@ -63,6 +63,8 @@ https://www.freecodecamp.org/news/constant-confusion-why-i-still-use-javascript-
   }
   /////////////////////////////////////////////////////////////////
 ```
+
 Note on logging the function calls ...
 inside the /functions/ folder, where we create Netlify Lambda functions --- console.log command writes to the netlify logs.
 but in .js files that run in the browser --- console.log command writes to the browser console (visibl e in chrome dev tools).
+
