@@ -63,3 +63,6 @@ https://www.freecodecamp.org/news/constant-confusion-why-i-still-use-javascript-
   }
   /////////////////////////////////////////////////////////////////
 ```
+Note on logging the function calls ...
+inside the /functions/ folder, where we create Netlify Lambda functions --- console.log command writes to the netlify logs.
+but in .js files that run in the browser --- console.log command writes to the browser console (visibl e in chrome dev tools).
