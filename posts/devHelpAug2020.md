@@ -49,10 +49,10 @@ https://www.freecodecamp.org/news/constant-confusion-why-i-still-use-javascript-
 2. add function definition & export to: netlify-faunadb-example2/src/utils/   (func define. export at the bottom) 
 3. change the web app to call the new function.  (example React.   App.js)
 ```
-<button  data-id={id} onClick={this.wango} > wango </button>
+<button  data-id={id} onClick={this.readTodoAndLogIt} > readTodoAndLogIt </button>
 ... then later ...
  ////////////////////////////////////////////////////////////////
-  wango = (e) => {
+  readTodoAndLogIt = (e) => {
     const todoId = e.target.dataset.id
     // Make API request 
     api.readTodo2(todoId).then(() => {
