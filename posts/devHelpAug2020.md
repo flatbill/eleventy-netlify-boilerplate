@@ -74,7 +74,7 @@ This is not used by the netlify fauna example, but maybe it's a good approach to
 https://www.youtube.com/watch?v=9YkUCxvaLEk
 
 
-async await in faunadb  client.query ... probably not exactly what I want !
+async await in faunadb  client.query ... probably not exactly what I want ?
 https://fauna.com/blog/getting-started-with-fql-faunadbs-native-query-language-part-5
 
 Consider Dave's technique in the his netlify example.
@@ -85,6 +85,8 @@ Dave writes a catch block in every function.  it's reasonably short.  Is it good
 
 Dave's approach hints that exports.handler is promise based?
 Maybe Dave's approach is good enuff.  we want to avoid callbacks.  I guess it's ok if we use promises with .then
+hey, wait a minute.... Dave also has  exports.handler = async (event, context) => { 
+in function: todos-create.js
 
 Someday, maybe I'll understand exports.handler
 http://cloudway.io/post/local-lambda-nodejs-development-environment/
