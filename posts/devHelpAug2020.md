@@ -41,7 +41,7 @@ this seems like a better idea when the app is an angular SPA.
 ###### colors
 https://www.sessions.edu/color-calculator/
 
-###### functions
+###### javascript functions
 https://www.freecodecamp.org/news/constant-confusion-why-i-still-use-javascript-function-statements-984ece0b72fd/ 
 8:54:49 AM: Different functions path detected, going to use the one specified in the Netlify configuration file: 'functions' versus '' in the Netlify UI
 
@@ -68,10 +68,12 @@ Note on logging the function calls ...
 inside the /functions/ folder, where we create Netlify Lambda functions --- console.log command writes to the netlify logs.
 but in .js files that run in the browser --- console.log command writes to the browser console (visibl e in chrome dev tools).
 
+Wes Bos talks about async.  Nice error handling. function yolo()  vs function (safeYolo) 9:15 into the video.
+async await is cool, but error handling is hard.  Wes's solution:  a high order function that wraps a function with error handling.
+This is not used by the netlify fauna example, but maybe it's a good approach to use in questool.
+https://www.youtube.com/watch?v=9YkUCxvaLEk
+
+
 ###### angular 
 https://stackblitz.com/edit/angular-submit-if-valid?file=app%2Fsubmit-if-valid.directive.ts
 
-
-##### javascript
-Wes Scot talks about async.  Nice error handling. function yolo()  vs function (safeYolo) 9:15 into the video.
-https://www.youtube.com/watch?v=9YkUCxvaLEk
