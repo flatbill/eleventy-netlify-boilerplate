@@ -85,7 +85,9 @@ exports.handler = async (event, context) => {     ``` possible other approach```
 
 Dave's approach hints that exports.handler is promise based?
 Maybe Dave's approach is good enuff.  we want to avoid callbacks.  I guess it's ok if we use promises with .then
- 
+
+Someday, maybe I'll understand exports.handler
+http://cloudway.io/post/local-lambda-nodejs-development-environment/
 
 ###### angular 
 https://stackblitz.com/edit/angular-submit-if-valid?file=app%2Fsubmit-if-valid.directive.ts
