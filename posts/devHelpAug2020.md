@@ -79,7 +79,9 @@ https://fauna.com/blog/getting-started-with-fql-faunadbs-native-query-language-p
 
 Consider Dave's technique in the his netlify example.
 Dave writes a catch block in every function.  it's reasonably short.  Is it good enough?
-
+exports.handler = (event, context) => { 
+vs
+exports.handler = async (event, context) => {
 
 
 ###### angular 
