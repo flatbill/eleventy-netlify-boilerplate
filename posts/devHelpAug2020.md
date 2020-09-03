@@ -73,5 +73,5 @@ https://stackblitz.com/edit/angular-submit-if-valid?file=app%2Fsubmit-if-valid.d
 
 
 ##### javascript
-Wes Scot talks about async.  Nice error handling. function yolo()  vs function (safeYolo)
+Wes Scot talks about async.  Nice error handling. function yolo()  vs function (safeYolo) 9:15 into the video.
 https://www.youtube.com/watch?v=9YkUCxvaLEk
