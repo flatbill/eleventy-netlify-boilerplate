@@ -70,7 +70,7 @@ but in .js files that run in the browser --- console.log command writes to the b
 
 faunadb crud:
 https://docs.fauna.com/fauna/current/tutorials/crud.html?lang=javascript
-
+``` Let’s use a Map function to create several posts at once```
 
 Wes Bos talks about async.  Nice error handling. function yolo()  vs function (safeYolo) 9:15 into the video.
 async await is cool, but error handling is hard.  Wes's solution:  a high order function that wraps a function with error handling.
