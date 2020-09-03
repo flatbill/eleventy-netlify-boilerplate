@@ -79,10 +79,13 @@ https://fauna.com/blog/getting-started-with-fql-faunadbs-native-query-language-p
 
 Consider Dave's technique in the his netlify example.
 Dave writes a catch block in every function.  it's reasonably short.  Is it good enough?
-exports.handler = (event, context) => { 
+exports.handler = (event, context) => {            ``` Dave's approach```
 vs
-exports.handler = async (event, context) => {
+exports.handler = async (event, context) => {     ``` possible other approach```
 
+Dave's approach hints that exports.handler is promise based?
+Maybe Dave's approach is good enuff.  we want to avoid callbacks.  I guess it's ok if we use promises with .then
+ 
 
 ###### angular 
 https://stackblitz.com/edit/angular-submit-if-valid?file=app%2Fsubmit-if-valid.directive.ts
