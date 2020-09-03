@@ -97,6 +97,9 @@ https://docs.aws.amazon.com/lambda/latest/dg/nodejs-handler.html
 Someday, maybe I'll understand exports.handler
 http://cloudway.io/post/local-lambda-nodejs-development-environment/
 
+fun swedish guy on javascript functions and automatic tests with jest:
+https://www.youtube.com/watch?v=Eu35xM76kKY
+
 ###### angular 
 https://stackblitz.com/edit/angular-submit-if-valid?file=app%2Fsubmit-if-valid.directive.ts
 
