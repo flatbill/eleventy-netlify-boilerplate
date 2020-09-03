@@ -74,6 +74,14 @@ This is not used by the netlify fauna example, but maybe it's a good approach to
 https://www.youtube.com/watch?v=9YkUCxvaLEk
 
 
+async await in faunadb  client.query ... probably not exactly what I want !
+https://fauna.com/blog/getting-started-with-fql-faunadbs-native-query-language-part-5
+
+Consider Dave's technique in the his netlify example.
+Dave writes a catch block in every function.  it's reasonably short.  Is it good enough?
+
+
+
 ###### angular 
 https://stackblitz.com/edit/angular-submit-if-valid?file=app%2Fsubmit-if-valid.directive.ts
 
