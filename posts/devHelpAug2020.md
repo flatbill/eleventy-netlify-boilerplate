@@ -68,6 +68,10 @@ Note on logging the function calls ...
 inside the /functions/ folder, where we create Netlify Lambda functions --- console.log command writes to the netlify logs.
 but in .js files that run in the browser --- console.log command writes to the browser console (visibl e in chrome dev tools).
 
+faunadb crud:
+https://docs.fauna.com/fauna/current/tutorials/crud.html?lang=javascript
+
+
 Wes Bos talks about async.  Nice error handling. function yolo()  vs function (safeYolo) 9:15 into the video.
 async await is cool, but error handling is hard.  Wes's solution:  a high order function that wraps a function with error handling.
 This is not used by the netlify fauna example, but maybe it's a good approach to use in questool.
