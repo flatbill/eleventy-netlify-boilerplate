@@ -87,6 +87,7 @@ Dave's approach hints that exports.handler is promise based?
 Maybe Dave's approach is good enuff.  we want to avoid callbacks.  I guess it's ok if we use promises with .then
 hey, wait a minute.... Dave also has  exports.handler = async (event, context) => { 
 in function: todos-create.js
+https://docs.aws.amazon.com/lambda/latest/dg/nodejs-handler.html
 
 Someday, maybe I'll understand exports.handler
 http://cloudway.io/post/local-lambda-nodejs-development-environment/
