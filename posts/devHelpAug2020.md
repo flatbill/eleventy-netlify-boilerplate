@@ -70,3 +70,8 @@ but in .js files that run in the browser --- console.log command writes to the b
 
 ###### angular 
 https://stackblitz.com/edit/angular-submit-if-valid?file=app%2Fsubmit-if-valid.directive.ts
+
+
+##### javascript
+Wes Scot talks about async.  Nice error handling. function yolo()  vs function (safeYolo)
+https://www.youtube.com/watch?v=9YkUCxvaLEk
