@@ -86,7 +86,8 @@ Dave writes a catch block in every function.  it's reasonably short.  Is it good
 Dave's approach hints that exports.handler is promise based?
 Maybe Dave's approach is good enuff.  we want to avoid callbacks.  I guess it's ok if we use promises with .then
 hey, wait a minute.... Dave also has  exports.handler = async (event, context) => { 
-in function: todos-create.js
+in function: todos-create.js and others.
+``` for libraries that return a promise, you can return that promise directly to the runtime.```  
 https://docs.aws.amazon.com/lambda/latest/dg/nodejs-handler.html
 
 Someday, maybe I'll understand exports.handler
