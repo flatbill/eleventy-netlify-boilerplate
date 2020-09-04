@@ -106,7 +106,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
  
  
 ###### javascript session management
-
+https://stackoverflow.com/questions/105034/how-to-create-guid-uuid
 first, create a UUID for the current user session:
 ```
 function uuidv4() {
