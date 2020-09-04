@@ -8,11 +8,15 @@ eleventyNavigation:
 ---
 hello from about file: eleventy-netlify-boilerplate/pages/about.md
 
-## Our services
-bla
-### Blue-sky thinking
-bla
-#### Management frameworks
-bla
-##### Regulatory convergence
-bla
+###### Bill does web apps
+
+example sites as of August 2020
+
+https://sharp-leavitt-971c15.netlify.app/
+https://clever-ptolemy-5f2b93.netlify.app/
+https://unruffled-williams-5f0e94.netlify.app/
+https://festive-mahavira-99b441.netlify.app/
+https://www.soullierevilla.com/
+
+
+
