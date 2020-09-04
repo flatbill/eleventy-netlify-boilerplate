@@ -104,6 +104,26 @@ Dave uses function literals to compose faunaDb queries.
 ``` return client.query(q.Get(q.Ref(`classes/todos/${id}`))) ```
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals 
  
+ 
+###### javascript session management
+
+first, create a UUID for the current user session:
+```
+function uuidv4() {
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+    return v.toString(16);
+  });
+}
+
+console.log(uuidv4());
+```
+store the session UUID somewhere. Maybe a cookie.
+when a user does something on drEd5, store the cookie, store the same info in faunaDb.
+when a user does something on drEd5, read the info on FaunaDb.
+What else should we store about the user session?
+ -- faunaDb info, like pagination.
+
 ###### angular 
 https://stackblitz.com/edit/angular-submit-if-valid?file=app%2Fsubmit-if-valid.directive.ts
 
