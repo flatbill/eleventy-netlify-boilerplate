@@ -107,3 +107,5 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
 ###### angular 
 https://stackblitz.com/edit/angular-submit-if-valid?file=app%2Fsubmit-if-valid.directive.ts
 
+###### questionnaire
+http://quizbucket.org/what-is-the-default-scope-in-nodejs-application-1429
