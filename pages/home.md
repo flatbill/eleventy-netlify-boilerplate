@@ -46,12 +46,12 @@ I mean, go to github, folder bla bla /posts, create like ```myNewPostAug2020.md`
 ##### why 11ty  Blog here?
 Mainstream blog apps like wordpress might be a better fit for most.
 those apps make pretty pages by choosing a template 'off the rack'.
-This app, GenXYZ, is for tech people learning 11ty and netlify.
+This kind of app is more for tech people learning 11ty and netlify.
  
  ##### Forms, Blog, boiler plate?
  If ya don't wanna capture forms data (like forget the contact page)
 and ya don't wanna bother with a blog  (like kill the blog and posts stuff)
-and instead, a wanna create a portfolio-ish 'static' site...
+and instead, ya wanna create a portfolio-ish 'static' site...
 then maybe start with this boiler plate page,  change the nav stuff,
 and create a .njk file (and maybe a .md file)  for each nav option.
 The .md file has a Front Matter heading area.
