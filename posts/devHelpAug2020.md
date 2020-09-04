@@ -100,6 +100,10 @@ http://cloudway.io/post/local-lambda-nodejs-development-environment/
 fun swedish guy on javascript functions and automatic tests with jest:
 https://www.youtube.com/watch?v=Eu35xM76kKY
 
+Dave uses function literals to compose faunaDb queries. 
+``` return client.query(q.Get(q.Ref(`classes/todos/${id}`))) ```
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals 
+ 
 ###### angular 
 https://stackblitz.com/edit/angular-submit-if-valid?file=app%2Fsubmit-if-valid.directive.ts
 
