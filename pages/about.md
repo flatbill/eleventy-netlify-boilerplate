@@ -11,12 +11,13 @@ hello from about file: eleventy-netlify-boilerplate/pages/about.md
 ###### Bill does web apps
 
 example sites as of August 2020
+like all browser links, ctrl + click opens these in a new tab.
 
 https://sharp-leavitt-971c15.netlify.app/ 
 https://clever-ptolemy-5f2b93.netlify.app/ 
 https://unruffled-williams-5f0e94.netlify.app/ 
 https://festive-mahavira-99b441.netlify.app/ 
 https://www.soullierevilla.com/ 
+https://www.flynewsky.com/
 
- 
 
