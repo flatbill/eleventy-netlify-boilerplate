@@ -129,3 +129,7 @@ https://stackblitz.com/edit/angular-submit-if-valid?file=app%2Fsubmit-if-valid.d
 
 ###### questionnaire
 http://quizbucket.org/what-is-the-default-scope-in-nodejs-application-1429
+
+
+##### misc
+surge to host a site: https://surge.sh/
