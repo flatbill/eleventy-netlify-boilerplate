@@ -14,7 +14,7 @@ Home file is eleventy-netlify-boilerplate/pages/home.md
 These web pages are a mix of .ntk (nunjucks)  and  .md (markdown text files).
 
 >Look mom, I'm writing text as markdown in eleventy-netlify-boilerplate/pages/home.md
-See the Blog section for notes on markdown.
+See the Blog section for Jos & Sorrow of Markdown.
 
 ##### How does this site work ?
 This '11ty app' is in a github repo. 
@@ -30,13 +30,13 @@ Set Netlify auto-publish ON, or manually trigger a Netlify deploy of this site.
 
 Some call 11ty a way to do Component Driven Design.  It feels more like snippet-driven-design. 
 Seperate content from layout.
-11ty seems to be a tool for people who used to be web masters.
+11ty seems to be a tool for people who used to be front end web masters.
 There is learning curve to 11ty. There are help and tutorial sites.
 https://snipcart.com/blog/choose-best-static-site-generator
 11ty might be a quick way to do demos and project ideas without full blown angular.
 
 ##### How do I pretty up this ugly site?
-I'm trying bulma.css in the ntk files.  Then put content into markdown .md files.
+I'm trying bulma.css in the ntk files. The site relies on content I write in markdown .md files.
 
 ##### how to create blog info. (create 'posts').
 Create more .md files in github, and re-publish.
