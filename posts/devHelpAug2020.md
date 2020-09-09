@@ -97,6 +97,9 @@ https://docs.aws.amazon.com/lambda/latest/dg/nodejs-handler.html
 Someday, maybe I'll understand exports.handler
 http://cloudway.io/post/local-lambda-nodejs-development-environment/
 
+ideas on 'best practices' for fat arrow functions.  look at hint #5 nesting, to make it more readable:
+https://dmitripavlutin.com/javascript-arrow-functions-best-practices/
+
 fun swedish guy on javascript functions and automatic tests with jest:
 https://www.youtube.com/watch?v=Eu35xM76kKY
 
