@@ -94,6 +94,11 @@ in function: todos-create.js and others.
 ``` for libraries that return a promise, you can return that promise directly to the runtime.```  
 https://docs.aws.amazon.com/lambda/latest/dg/nodejs-handler.html
 
+fauna db docs & promises:
+https://docs.fauna.com/fauna/current/drivers/javascript.html
+>All methods on faunadb.Client return ES6 Promises
+
+
 Someday, maybe I'll understand exports.handler
 http://cloudway.io/post/local-lambda-nodejs-development-environment/
 
