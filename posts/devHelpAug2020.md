@@ -46,8 +46,8 @@ https://www.freecodecamp.org/news/constant-confusion-why-i-still-use-javascript-
 8:54:49 AM: Different functions path detected, going to use the one specified in the Netlify configuration file: 'functions' versus '' in the Netlify UI
 
 1.a.Create new function in /dev5/functions folder  !! make sure you name it with .js on the end !!
-1.b. copy the new function from  /dev5/functions folder to github questool5/src/functions ??
-2. add function definition & export statement in: xxxx/src/utils/   (func definition. export statement at the bottom) 
+1.b. copy the new function from  /dev5/functions folder to github questool5/src/functions folder. 
+2. add function definition & export statement in: xxxx/src/utils/app.js   (func definition & export statement at the bottom) 
 3. change the web app to call the new function.  (example React.   App.js)
 ```
 <button  data-id={id} onClick={this.readTodoAndLogIt} > readTodoAndLogIt </button>
