@@ -142,3 +142,26 @@ http://quizbucket.org/what-is-the-default-scope-in-nodejs-application-1429
 
 ##### misc
 surge to host a site: https://surge.sh/
+
+
+###### fauna db notes oct 2020
+called a netlify (lamda?) function, from my 'built' angular app.
+lotsa weird work, so weird, I cant remember exactly.
+but now, time to move on.
+call that netlify function, and wow, it really reads fauna db and gives back something.
+how do I make sense of what it is giving back?
+I mean,  I want to go about: ingesting and displaying data from FaunaDB.
+I think the netlify function response is json stringified.
+and there is the word 'data' baked into that response.
+and there is a function 'ref' baked into that response.
+maybe my angular front end program can decipher that neltify function response?
+something like:
+https://www.smashingmagazine.com/2019/10/bookmarking-application-faunadb-netlify-11ty/
+
+netlify function is Endpoint:https://stupefied-elion-621b07.netlify.app/.netlify/functions/qtRead03
+and it gives me back this sorta thingy:
+{
+  ref: Ref(Collection("qtQuestions"), "276380634185728512"),
+  ts: 1599845454390000,
+  data: { title: 'How do you like pizza, my old friend?', completed: false }
+}
