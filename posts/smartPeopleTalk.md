@@ -27,3 +27,9 @@ example netlify cms
 https://www.elpassion.com/blog/jam-stack-your-old-cms-into-the-closet
 
 
+###### netlify calling aws
+Director of Support .... might be useful someday, but right now i seem to have partial success with netlify + faunaDb
+Oct '19
+You could use our (reverse) proxying feature to connect us to it; that’s a pretty common pattern and avoids CORS problems too:
+https://docs.netlify.com/routing/redirects/rewrites-proxies/#proxy-to-another-service 21
+(and, it’s how our own functions implementation routes to AWS under the hood without setting pesky custom hostnames or worrying about SSL certificates ourselves - AWS has one that covers THEIR hostnames already!)
